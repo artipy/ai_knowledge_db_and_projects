@@ -12,7 +12,8 @@ The knowledge base follows a topic-based organization:
 
 - **Topic directories** (e.g., `OpenAI_API/`, `Local_LLM_Deployment/`): Each subdirectory contains focused notes on a specific subject area
 - **`Exercises/`**: Practical assignments with step-by-step instructions, code templates, and grading criteria
-  - `Exercises/Solves/`: Student solutions and detailed review files (`.ipynb` for solutions, `*_Review.md` for analysis)
+  - `Exercises/Solves/`: Student solutions in Jupyter notebook format (`.ipynb`)
+  - `Exercises/Reviews/`: Detailed review files with analysis and grading (`*_Review.md`)
 - **`raw_notes/`**: Unprocessed notes (`.ipynb`, `.md`) awaiting refinement and organization before being moved to topic-specific locations
 - **`.obsidian/`**: Obsidian vault configuration (workspace, appearance, plugins) - do not modify unless explicitly requested
 
@@ -78,7 +79,7 @@ When converting Jupyter notebooks from `raw_notes/` into structured learning mat
 4. **Establish bidirectional links** between knowledge note, exercise, and related materials
 5. **When reviewing solutions:**
    - Save student solutions as `.ipynb` files in `Exercises/Solves/`
-   - Create detailed review as `*_Review.md` in `Exercises/Solves/`
+   - Create detailed review as `*_Review.md` in `Exercises/Reviews/`
    - Review must include: point breakdown, specific errors with code examples, recommendations for improvement
 
 ## Current Topics
