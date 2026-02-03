@@ -9,6 +9,10 @@
 - [[OpenAI_API/Working_with_OpenAI_API_in_Python|Работа с OpenAI API в Python]]
 - [[OpenAI_API/Introduction_to_OpenAI_API|Введение в OpenAI API]]
 
+## Следующие шаги
+
+После выполнения этого задания рекомендуется перейти к [[Exercises/02_Chat_Roles_and_Conversations_Exercise|Практическому заданию №2]], которое углубляет знания о работе с ролями в чатах и создании диалогов с контекстом.
+
 ## Предварительные требования
 
 - Установленная библиотека `openai` и `python-dotenv`

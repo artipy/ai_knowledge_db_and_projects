@@ -4,8 +4,9 @@
 
 ## Связанные заметки
 
-- [[OpenAI_API/Introduction_to_OpenAI_API|Введение в OpenAI API]] - базовая информация о подключении к API
+- [[OpenAI_API/Introduction_to_OpenAI_API|Введение в OpenAI API]] - базовая информация о подключению API
 - [[OpenAI_API/Working_with_OpenAI_API_in_Python|Работа с OpenAI API в Python]] - практические примеры работы с API и shot prompting
+- [[Exercises/02_Chat_Roles_and_Conversations_Exercise|Практическое задание №2]] - задания для отработки навыков работы с ролями и диалогами
 
 ## Подготовка к работе
 
@@ -340,6 +341,15 @@ messages = [
     }
 ]
 ```
+
+## Практика
+
+Для закрепления материала рекомендуется выполнить [[Exercises/02_Chat_Roles_and_Conversations_Exercise|Практическое задание №2]], которое охватывает:
+- Управление поведением модели через системную роль
+- Установку границ и ограничений для специализированных чат-ботов
+- Few-shot prompting через синтетические диалоги
+- Создание multi-turn conversations с анализом стоимости
+- Оптимизацию длинных диалогов
 
 ---
 
