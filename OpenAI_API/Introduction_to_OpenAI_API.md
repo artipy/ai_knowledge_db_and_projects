@@ -5,6 +5,7 @@
 ## Связанные заметки
 
 - [[OpenAI_API/Working_with_OpenAI_API_in_Python|Работа с OpenAI API в Python]] - практические примеры использования API для различных задач обработки текста
+- [[OpenAI_API/Chat_Roles_and_Multi_Turn_Conversations|Роли в чатах и многоэтапные диалоги]] - использование system, user и assistant ролей, создание диалогов с контекстом
 - [[Exercises/01_OpenAI_API_Text_Processing_Exercise|Практическое задание №1]] - проверка усвоенных знаний по работе с OpenAI API
 
 ## Что такое API?
@@ -121,11 +122,10 @@ BASE_MODEL=gemini-2.0-flash-exp
 
 После освоения базового подключения к API, рекомендуется изучить:
 - [[OpenAI_API/Working_with_OpenAI_API_in_Python|Практические примеры работы с API]] - редактирование, резюмирование, генерация текста
+- [[OpenAI_API/Chat_Roles_and_Multi_Turn_Conversations|Роли в чатах и многоэтапные диалоги]] - система ролей, управление поведением модели, создание контекстных диалогов
 - Управление параметрами генерации (temperature, max_tokens)
-- Работу с ролями и системными промптами
 - Техники промптинга (few-shot, chain-of-thought)
 - Управление стоимостью и токенами
-- Создание многоходовых диалогов с сохранением контекста
 
 ---
 

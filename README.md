@@ -20,7 +20,8 @@
 knowledge_lib/
 ├── OpenAI_API/                    # Работа с OpenAI API
 │   ├── Introduction_to_OpenAI_API.md
-│   └── Working_with_OpenAI_API_in_Python.md
+│   ├── Working_with_OpenAI_API_in_Python.md
+│   └── Chat_Roles_and_Multi_Turn_Conversations.md
 │
 ├── Local_LLM_Deployment/          # Локальное развертывание моделей
 │   └── Local_LLM_Deployment_with_LM_Studio.md
@@ -48,6 +49,9 @@ knowledge_lib/
 - Обработка текста: редактирование, резюмирование, генерация
 - Управление параметрами: `temperature`, `max_completion_tokens`
 - Расчет стоимости запросов
+- Система ролей в чатах: system, user, assistant
+- Многоэтапные диалоги с сохранением контекста (multi-turn conversations)
+- Управление поведением модели через системные сообщения
 
 ### Prompt Engineering
 - Zero-shot, One-shot, Few-shot промптинг
@@ -70,7 +74,8 @@ knowledge_lib/
 **Рекомендуемый порядок изучения:**
 1. `OpenAI_API/Introduction_to_OpenAI_API.md` - базовое введение
 2. `OpenAI_API/Working_with_OpenAI_API_in_Python.md` - практические примеры
-3. Выполнить `Exercises/01_OpenAI_API_Text_Processing_Exercise.md`
+3. `OpenAI_API/Chat_Roles_and_Multi_Turn_Conversations.md` - роли в чатах и создание диалогов
+4. Выполнить `Exercises/01_OpenAI_API_Text_Processing_Exercise.md`
 
 ### Для практики
 
@@ -180,5 +185,5 @@ echo "BASE_MODEL=your_model" >> .env
 ---
 
 **Последнее обновление:** 2026-02-04
-**Количество заметок:** 3 основных, 1 задание
+**Количество заметок:** 4 основных, 1 задание
 **Статус:** Активная разработка
