@@ -86,6 +86,7 @@ When converting Jupyter notebooks from `raw_notes/` into structured learning mat
 
 As of the latest commit, the knowledge base covers:
 - **OpenAI API**: Python integration, API usage, prompt engineering techniques, text processing, chat roles (system/user/assistant), multi-turn conversations with context preservation
+- **Prompt Engineering**: Best practices for creating effective prompts, action verbs, structured prompts, formatted outputs (tables, lists, custom formats), conditional logic in prompts, iterative prompt development
 - **Local LLM Deployment**: Using LM Studio for local model hosting
 - **Practical Exercises**: Hands-on assignments with auto-grading criteria and detailed solution reviews
 

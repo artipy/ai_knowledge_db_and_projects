@@ -6,6 +6,7 @@
 
 - [[OpenAI_API/Working_with_OpenAI_API_in_Python|Работа с OpenAI API в Python]] - практические примеры использования API для различных задач обработки текста
 - [[OpenAI_API/Chat_Roles_and_Multi_Turn_Conversations|Роли в чатах и многоэтапные диалоги]] - использование system, user и assistant ролей, создание диалогов с контекстом
+- [[Prompt_Engineering/Prompt_Engineering_Best_Practices|Лучшие практики Prompt Engineering]] - ключевые принципы создания эффективных промптов, структурирование запросов
 - [[Exercises/01_OpenAI_API_Text_Processing_Exercise|Практическое задание №1]] - проверка усвоенных знаний по работе с OpenAI API
 
 ## Что такое API?

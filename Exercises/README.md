@@ -7,6 +7,7 @@
 Каждое задание имеет номер и описательное название на английском языке:
 - `01_OpenAI_API_Text_Processing_Exercise.md` - базовая работа с OpenAI API (редактирование, резюмирование, генерация текста)
 - `02_Chat_Roles_and_Conversations_Exercise.md` - система ролей и многоэтапные диалоги
+- `03_Prompt_Engineering_Exercise.md` - лучшие практики создания эффективных промптов
 - Следующие задания добавляются по мере роста базы знаний
 
 ### Директории для решений и проверок
@@ -46,6 +47,7 @@
 |---|----------|------|-----------|-------|
 | 01 | [Text Processing with OpenAI API](01_OpenAI_API_Text_Processing_Exercise.md) | OpenAI API | Начальный | ~75 мин |
 | 02 | [Chat Roles and Conversations](02_Chat_Roles_and_Conversations_Exercise.md) | Роли в чатах | Начальный | ~80 мин |
+| 03 | [Prompt Engineering Best Practices](03_Prompt_Engineering_Exercise.md) | Prompt Engineering | Начальный | ~90 мин |
 
 ## Описание заданий
 
@@ -81,12 +83,32 @@
 - [[OpenAI_API/Chat_Roles_and_Multi_Turn_Conversations|Роли в чатах и многоэтапные диалоги]]
 - [[OpenAI_API/Working_with_OpenAI_API_in_Python|Работа с OpenAI API в Python]]
 
+---
+
+### 03. Prompt Engineering Best Practices
+
+**Что вы освоите:**
+- Использование эффективных глаголов действия в промптах
+- Создание детальных инструкций с учетом аудитории и контекста
+- Структурирование промптов для получения форматированных ответов
+- Генерацию таблиц, списков и пользовательских форматов
+- Встраивание условной логики в промпты
+- Итеративное улучшение промптов для достижения лучших результатов
+- Применение разделителей и few-shot learning
+
+**Предварительные требования:** Выполненные задания №01 и №02, понимание работы с OpenAI API
+
+**Связанные заметки:**
+- [[Prompt_Engineering/Prompt_Engineering_Best_Practices|Лучшие практики Prompt Engineering]]
+- [[OpenAI_API/Working_with_OpenAI_API_in_Python|Работа с OpenAI API в Python]]
+
 ## Рекомендуемый порядок выполнения
 
 ```mermaid
 graph LR
     A[Задание 01:<br/>Text Processing] --> B[Задание 02:<br/>Chat Roles]
-    B --> C[Будущие задания]
+    B --> C[Задание 03:<br/>Prompt Engineering]
+    C --> D[Будущие задания]
 ```
 
 **Важно:** Задания построены с прогрессивным увеличением сложности. Рекомендуется выполнять их последовательно для лучшего усвоения материала.

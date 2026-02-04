@@ -6,6 +6,7 @@
 
 - [[OpenAI_API/Introduction_to_OpenAI_API|Введение в OpenAI API]] - базовая информация о подключении и работе с API
 - [[OpenAI_API/Chat_Roles_and_Multi_Turn_Conversations|Роли в чатах и многоэтапные диалоги]] - использование ролей для управления поведением, создание диалогов с контекстом
+- [[Prompt_Engineering/Prompt_Engineering_Best_Practices|Лучшие практики Prompt Engineering]] - ключевые принципы создания эффективных промптов, структурирование запросов, условная логика
 - [[Exercises/01_OpenAI_API_Text_Processing_Exercise|Практическое задание №1]] - задания для проверки усвоенных знаний по работе с API
 
 ## Подготовка к работе

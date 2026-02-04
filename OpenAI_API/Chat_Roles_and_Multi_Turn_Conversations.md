@@ -6,6 +6,7 @@
 
 - [[OpenAI_API/Introduction_to_OpenAI_API|Введение в OpenAI API]] - базовая информация о подключению API
 - [[OpenAI_API/Working_with_OpenAI_API_in_Python|Работа с OpenAI API в Python]] - практические примеры работы с API и shot prompting
+- [[Prompt_Engineering/Prompt_Engineering_Best_Practices|Лучшие практики Prompt Engineering]] - ключевые принципы создания эффективных промптов, структурирование запросов
 - [[Exercises/02_Chat_Roles_and_Conversations_Exercise|Практическое задание №2]] - задания для отработки навыков работы с ролями и диалогами
 
 ## Подготовка к работе
