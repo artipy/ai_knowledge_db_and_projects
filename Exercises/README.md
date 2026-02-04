@@ -65,6 +65,8 @@
 **Связанные заметки:**
 - [[OpenAI_API/Introduction_to_OpenAI_API|Введение в OpenAI API]]
 - [[OpenAI_API/Working_with_OpenAI_API_in_Python|Работа с OpenAI API в Python]]
+- [[Python_for_AI/Python_Decorators|Декораторы в Python]] - для понимания продвинутых паттернов
+- [[Python_for_AI/Tenacity_Library_for_Retry_Logic|Библиотека Tenacity]] - для устойчивой работы с API
 
 ---
 
@@ -82,6 +84,7 @@
 **Связанные заметки:**
 - [[OpenAI_API/Chat_Roles_and_Multi_Turn_Conversations|Роли в чатах и многоэтапные диалоги]]
 - [[OpenAI_API/Working_with_OpenAI_API_in_Python|Работа с OpenAI API в Python]]
+- [[Python_for_AI/Tenacity_Library_for_Retry_Logic|Библиотека Tenacity]] - для обработки ошибок в production
 
 ---
 
@@ -101,6 +104,7 @@
 **Связанные заметки:**
 - [[Prompt_Engineering/Prompt_Engineering_Best_Practices|Лучшие практики Prompt Engineering]]
 - [[OpenAI_API/Working_with_OpenAI_API_in_Python|Работа с OpenAI API в Python]]
+- [[Python_for_AI/Python_Decorators|Декораторы в Python]] - для создания переиспользуемых паттернов
 
 ## Рекомендуемый порядок выполнения
 

@@ -5,6 +5,7 @@
 ## Связанные заметки
 - [[Prompt_Engineering/Основы_Prompt_Engineering]] - техники создания эффективных промптов для локальных моделей
 - [[OpenAI_API/Working_with_OpenAI_API_in_Python]] - работа с OpenAI API (синтаксис совместим с LM Studio)
+- [[Python_for_AI/Tenacity_Library_for_Retry_Logic|Библиотека Tenacity для retry-логики]] - обработка ошибок при работе с локальными моделями
 
 ## Установка и запуск LM Studio
 

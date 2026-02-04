@@ -88,6 +88,7 @@ As of the latest commit, the knowledge base covers:
 - **OpenAI API**: Python integration, API usage, prompt engineering techniques, text processing, chat roles (system/user/assistant), multi-turn conversations with context preservation
 - **Prompt Engineering**: Best practices for creating effective prompts, action verbs, structured prompts, formatted outputs (tables, lists, custom formats), conditional logic in prompts, iterative prompt development
 - **Local LLM Deployment**: Using LM Studio for local model hosting
+- **Python for AI**: Essential Python tools and patterns for AI engineers, including decorators, retry logic with tenacity library, error handling, caching, monitoring, and production-ready API wrappers
 - **Practical Exercises**: Hands-on assignments with auto-grading criteria and detailed solution reviews
 
 ## Exercise Naming Convention
