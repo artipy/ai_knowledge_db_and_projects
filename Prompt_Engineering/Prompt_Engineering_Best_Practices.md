@@ -407,6 +407,7 @@ prompt = create_prompt(
 
 ## Связанные материалы
 
+- [[Prompt_Engineering/Advanced_Prompt_Engineering_Strategies|Продвинутые стратегии Prompt Engineering]] - углубленное изучение техник Few-Shot, Chain-of-Thought, Self-Consistency и Multi-Step Prompting
 - [[OpenAI_API/Working_with_OpenAI_API_in_Python|Работа с OpenAI API в Python]]
 - [[OpenAI_API/Chat_Roles_and_Multi_Turn_Conversations|Роли в чатах и многоэтапные диалоги]]
 - [[OpenAI_API/Introduction_to_OpenAI_API|Введение в OpenAI API]]

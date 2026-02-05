@@ -8,6 +8,7 @@
 - `01_OpenAI_API_Text_Processing_Exercise.md` - базовая работа с OpenAI API (редактирование, резюмирование, генерация текста)
 - `02_Chat_Roles_and_Conversations_Exercise.md` - система ролей и многоэтапные диалоги
 - `03_Prompt_Engineering_Exercise.md` - лучшие практики создания эффективных промптов
+- `04_Advanced_Prompt_Engineering_Strategies_Exercise.md` - продвинутые стратегии (Shot Prompting, Chain-of-Thought, Self-Consistency)
 - Следующие задания добавляются по мере роста базы знаний
 
 ### Директории для решений и проверок
@@ -48,6 +49,7 @@
 | 01 | [Text Processing with OpenAI API](01_OpenAI_API_Text_Processing_Exercise.md) | OpenAI API | Начальный | ~75 мин | [✅](Solves/01_OpenAI_API_Text_Processing_Solve.ipynb) | [✅](Reviews/01_OpenAI_API_Text_Processing_Review.md) |
 | 02 | [Chat Roles and Conversations](02_Chat_Roles_and_Conversations_Exercise.md) | Роли в чатах | Начальный | ~80 мин | [✅](Solves/02_Chat_Roles_and_Conversations_Solve.ipynb) | [✅](Reviews/02_Chat_Roles_and_Conversations_Review.md) |
 | 03 | [Prompt Engineering Best Practices](03_Prompt_Engineering_Exercise.md) | Prompt Engineering | Начальный | ~90 мин | [✅](Solves/03_Prompt_Engineering_Solves.ipynb) | [✅](Reviews/03_Prompt_Engineering_Review.md) |
+| 04 | [Advanced Prompt Engineering Strategies](04_Advanced_Prompt_Engineering_Strategies_Exercise.md) | Advanced Prompt Engineering | Средний | ~120 мин | ⏳ | ⏳ |
 
 ## Описание заданий
 
@@ -106,13 +108,35 @@
 - [[OpenAI_API/Working_with_OpenAI_API_in_Python|Работа с OpenAI API в Python]]
 - [[Python_for_AI/Python_Decorators|Декораторы в Python]] - для создания переиспользуемых паттернов
 
+---
+
+### 04. Advanced Prompt Engineering Strategies
+
+**Что вы освоите:**
+- Shot Prompting: сравнение Zero-shot, One-shot и Few-shot подходов
+- Few-shot через user-assistant диалоги для классификации
+- Multi-Step Prompting для структурированного выполнения задач
+- Chain-of-Thought (CoT) для получения пошаговых рассуждений модели
+- Self-Consistency для повышения надежности через множественные решения
+- Iterative Refinement - циклическое улучшение промптов
+- Комбинирование техник (Multi-Step + CoT + Few-Shot) для сложных задач
+- Построение production-ready классификаторов с высокой точностью
+
+**Предварительные требования:** Выполненные задания №01-03, понимание базовых техник prompt engineering
+
+**Связанные заметки:**
+- [[Prompt_Engineering/Advanced_Prompt_Engineering_Strategies|Продвинутые стратегии Prompt Engineering]]
+- [[Prompt_Engineering/Prompt_Engineering_Best_Practices|Лучшие практики Prompt Engineering]]
+- [[OpenAI_API/Chat_Roles_and_Multi_Turn_Conversations|Роли в чатах и многоэтапные диалоги]]
+
 ## Рекомендуемый порядок выполнения
 
 ```mermaid
 graph LR
     A[Задание 01:<br/>Text Processing] --> B[Задание 02:<br/>Chat Roles]
     B --> C[Задание 03:<br/>Prompt Engineering]
-    C --> D[Будущие задания]
+    C --> D[Задание 04:<br/>Advanced Strategies]
+    D --> E[Будущие задания]
 ```
 
 **Важно:** Задания построены с прогрессивным увеличением сложности. Рекомендуется выполнять их последовательно для лучшего усвоения материала.

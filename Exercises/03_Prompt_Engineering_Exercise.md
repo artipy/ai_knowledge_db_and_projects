@@ -10,6 +10,10 @@
 - [[OpenAI_API/Working_with_OpenAI_API_in_Python|Работа с OpenAI API в Python]]
 - [[OpenAI_API/Chat_Roles_and_Multi_Turn_Conversations|Роли в чатах и многоэтапные диалоги]]
 
+## Следующие шаги
+
+После выполнения этого задания рекомендуется перейти к [[Exercises/04_Advanced_Prompt_Engineering_Strategies_Exercise|Практическому заданию №4]], которое углубляет знания о продвинутых стратегиях: Shot Prompting, Chain-of-Thought, Self-Consistency и комбинирование техник.
+
 ## Предварительные требования
 
 - Установленная библиотека `openai` и `python-dotenv`

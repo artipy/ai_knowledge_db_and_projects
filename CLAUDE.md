@@ -86,10 +86,10 @@ When converting Jupyter notebooks from `raw_notes/` into structured learning mat
 
 As of the latest commit, the knowledge base covers:
 - **OpenAI API**: Python integration, API usage, prompt engineering techniques, text processing, chat roles (system/user/assistant), multi-turn conversations with context preservation
-- **Prompt Engineering**: Best practices for creating effective prompts, action verbs, structured prompts, formatted outputs (tables, lists, custom formats), conditional logic in prompts, iterative prompt development, few-shot learning
+- **Prompt Engineering**: Best practices for creating effective prompts, action verbs, structured prompts, formatted outputs (tables, lists, custom formats), conditional logic in prompts, iterative prompt development. Advanced strategies including Zero-Shot/One-Shot/Few-Shot prompting, Multi-Step Prompting, Chain-of-Thought (CoT), Self-Consistency prompting, and iterative refinement techniques.
 - **Local LLM Deployment**: Using LM Studio for local model hosting
 - **Python for AI**: Essential Python tools and patterns for AI engineers, including decorators, retry logic with tenacity library, error handling, caching, monitoring, and production-ready API wrappers
-- **Practical Exercises**: 3 completed assignments (OpenAI API Text Processing, Chat Roles and Conversations, Prompt Engineering Best Practices) with student solutions and comprehensive reviews including detailed feedback, error analysis, and recommendations for improvement
+- **Practical Exercises**: 4 assignments covering OpenAI API Text Processing (shot prompting, temperature control, cost calculation), Chat Roles and Conversations (multi-turn dialogs, context preservation), Prompt Engineering Best Practices (structured prompts, formatting, conditional logic), and Advanced Prompt Engineering Strategies (Zero/One/Few-Shot, Multi-Step, Chain-of-Thought, Self-Consistency, iterative refinement). Completed exercises (01-03) include student solutions and comprehensive reviews with detailed feedback, error analysis, and recommendations for improvement.
 
 ## Exercise Naming Convention
 
