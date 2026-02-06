@@ -7,6 +7,7 @@
 - [[OpenAI_API/Working_with_OpenAI_API_in_Python|Работа с OpenAI API в Python]] - практические примеры использования API для различных задач обработки текста
 - [[OpenAI_API/Chat_Roles_and_Multi_Turn_Conversations|Роли в чатах и многоэтапные диалоги]] - использование system, user и assistant ролей, создание диалогов с контекстом
 - [[Prompt_Engineering/Prompt_Engineering_Best_Practices|Лучшие практики Prompt Engineering]] - ключевые принципы создания эффективных промптов, структурирование запросов
+- [[Prompt_Engineering/Prompt_Engineering_for_Business_Applications|Prompt Engineering для бизнес-приложений]] - практическое применение промпт-инжиниринга для решения реальных бизнес-задач (резюмирование, трансформация текста, анализ, генерация кода)
 - [[Python_for_AI/Tenacity_Library_for_Retry_Logic|Библиотека Tenacity для retry-логики]] - устойчивая работа с API, обработка ошибок и rate limits
 - [[Exercises/01_OpenAI_API_Text_Processing_Exercise|Практическое задание №1]] - проверка усвоенных знаний по работе с OpenAI API
 

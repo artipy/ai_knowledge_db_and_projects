@@ -560,9 +560,11 @@ response = client.chat.completions.create(
 ## Связанные материалы
 
 - [[Prompt_Engineering/Prompt_Engineering_Best_Practices|Лучшие практики Prompt Engineering]] - базовые техники промпт-инжиниринга
+- [[Prompt_Engineering/Prompt_Engineering_for_Business_Applications|Prompt Engineering для бизнес-приложений]] - практическое применение продвинутых техник для решения бизнес-задач (резюмирование, классификация, извлечение данных, генерация кода)
 - [[OpenAI_API/Working_with_OpenAI_API_in_Python|Работа с OpenAI API в Python]] - практическая реализация промптов через API
 - [[OpenAI_API/Chat_Roles_and_Multi_Turn_Conversations|Роли в чатах и многоэтапные диалоги]] - использование few-shot через user-assistant диалоги
-- [[Python_for_AI/Python_Tools_for_AI_Engineers|Python инструменты для AI-инженеров]] - retry-логика и обработка ошибок для надежных API-вызовов
+- [[Python_for_AI/Python_Decorators|Python Декораторы]] - использование декораторов для обработки ошибок и мониторинга
+- [[Python_for_AI/Tenacity_Library_for_Retry_Logic|Библиотека Tenacity для retry-логики]] - надежные API-вызовы с автоматическими повторами
 - [[Exercises/03_Prompt_Engineering_Exercise|Практическое задание №3]] - отработка базовых техник prompt engineering
 - [[Exercises/04_Advanced_Prompt_Engineering_Strategies_Exercise|Практическое задание №4]] - комплексная отработка продвинутых стратегий (Shot Prompting, Chain-of-Thought, Self-Consistency, Multi-Step, итеративное улучшение)
 

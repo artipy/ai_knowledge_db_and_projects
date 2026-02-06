@@ -7,6 +7,7 @@
 - [[Python_for_AI/Tenacity_Library_for_Retry_Logic|Библиотека Tenacity для retry-логики]] - практическое применение декораторов для обработки ошибок API
 - [[OpenAI_API/Working_with_OpenAI_API_in_Python|Работа с OpenAI API в Python]] - примеры использования API, где декораторы улучшают надёжность
 - [[OpenAI_API/Introduction_to_OpenAI_API|Введение в OpenAI API]] - базовые концепции работы с API
+- [[Prompt_Engineering/Prompt_Engineering_for_Business_Applications|Prompt Engineering для бизнес-приложений]] - практическое применение API для бизнес-задач, где важна надежная обработка ошибок
 
 ## Что такое декоратор?
 

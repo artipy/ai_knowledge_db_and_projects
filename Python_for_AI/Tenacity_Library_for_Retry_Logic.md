@@ -7,6 +7,7 @@
 - [[Python_for_AI/Python_Decorators|Декораторы в Python]] - основы декораторов, которые активно используются в tenacity
 - [[OpenAI_API/Working_with_OpenAI_API_in_Python|Работа с OpenAI API в Python]] - практические примеры работы с API, где критична обработка ошибок
 - [[OpenAI_API/Introduction_to_OpenAI_API|Введение в OpenAI API]] - базовая информация о подключению к API
+- [[Prompt_Engineering/Prompt_Engineering_for_Business_Applications|Prompt Engineering для бизнес-приложений]] - практические бизнес-применения API с надежной обработкой ошибок
 - [[Local_LLM_Deployment/Local_LLM_Deployment_with_LM_Studio|Развертывание локальных LLM с LM Studio]] - работа с локальными моделями, где также важна устойчивость к ошибкам
 
 ## Зачем AI Engineer нужна библиотека Tenacity?
