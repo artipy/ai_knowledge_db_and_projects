@@ -49,7 +49,7 @@
 | 01 | [Text Processing with OpenAI API](01_OpenAI_API_Text_Processing_Exercise.md) | OpenAI API | Начальный | ~75 мин | [✅](Solves/01_OpenAI_API_Text_Processing_Solve.ipynb) | [✅](Reviews/01_OpenAI_API_Text_Processing_Review.md) |
 | 02 | [Chat Roles and Conversations](02_Chat_Roles_and_Conversations_Exercise.md) | Роли в чатах | Начальный | ~80 мин | [✅](Solves/02_Chat_Roles_and_Conversations_Solve.ipynb) | [✅](Reviews/02_Chat_Roles_and_Conversations_Review.md) |
 | 03 | [Prompt Engineering Best Practices](03_Prompt_Engineering_Exercise.md) | Prompt Engineering | Начальный | ~90 мин | [✅](Solves/03_Prompt_Engineering_Solves.ipynb) | [✅](Reviews/03_Prompt_Engineering_Review.md) |
-| 04 | [Advanced Prompt Engineering Strategies](04_Advanced_Prompt_Engineering_Strategies_Exercise.md) | Advanced Prompt Engineering | Средний | ~120 мин | ⏳ | ⏳ |
+| 04 | [Advanced Prompt Engineering Strategies](04_Advanced_Prompt_Engineering_Strategies_Exercise.md) | Advanced Prompt Engineering | Средний | ~120 мин | [✅](Solves/04_Advanced_Prompt_Engineering_Strategies_Solve.ipynb) | [✅](Reviews/04_Advanced_Prompt_Engineering_Strategies_Review.md) |
 
 ## Описание заданий
 
