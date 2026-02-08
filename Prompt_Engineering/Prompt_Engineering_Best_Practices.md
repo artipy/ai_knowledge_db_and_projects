@@ -409,6 +409,7 @@ prompt = create_prompt(
 
 - [[Prompt_Engineering/Advanced_Prompt_Engineering_Strategies|Продвинутые стратегии Prompt Engineering]] - углубленное изучение техник Few-Shot, Chain-of-Thought, Self-Consistency и Multi-Step Prompting
 - [[Prompt_Engineering/Prompt_Engineering_for_Business_Applications|Prompt Engineering для бизнес-приложений]] - практическое применение промпт-инжиниринга для решения реальных бизнес-задач (резюмирование, трансформация текста, анализ, генерация кода)
+- [[Prompt_Engineering/Prompt_Engineering_for_Chatbot_Development|Prompt Engineering для разработки чатботов]] - применение промпт-инжиниринга для создания специализированных чатботов (определение роли, поведения, ограничений, включение внешнего контекста)
 - [[OpenAI_API/Working_with_OpenAI_API_in_Python|Работа с OpenAI API в Python]]
 - [[OpenAI_API/Chat_Roles_and_Multi_Turn_Conversations|Роли в чатах и многоэтапные диалоги]]
 - [[OpenAI_API/Introduction_to_OpenAI_API|Введение в OpenAI API]]

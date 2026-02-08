@@ -8,6 +8,7 @@
 - [[OpenAI_API/Chat_Roles_and_Multi_Turn_Conversations|Роли в чатах и многоэтапные диалоги]] - использование ролей для управления поведением, создание диалогов с контекстом
 - [[Prompt_Engineering/Prompt_Engineering_Best_Practices|Лучшие практики Prompt Engineering]] - ключевые принципы создания эффективных промптов, структурирование запросов, условная логика
 - [[Prompt_Engineering/Prompt_Engineering_for_Business_Applications|Prompt Engineering для бизнес-приложений]] - практическое применение промпт-инжиниринга для бизнес-задач (резюмирование, трансформация, анализ, генерация кода)
+- [[Prompt_Engineering/Prompt_Engineering_for_Chatbot_Development|Prompt Engineering для разработки чатботов]] - создание специализированных чатботов с использованием ролей и контекста
 - [[Python_for_AI/Tenacity_Library_for_Retry_Logic|Библиотека Tenacity для retry-логики]] - обработка ошибок API, rate limits и автоматические повторные попытки
 - [[Exercises/01_OpenAI_API_Text_Processing_Exercise|Практическое задание №1]] - задания для проверки усвоенных знаний по работе с API
 
@@ -399,6 +400,7 @@ print(response.choices[0].message.content)
 - [[Prompt_Engineering/Prompt_Engineering_Best_Practices|Лучшие практики Prompt Engineering]] - базовые техники построения эффективных промптов
 - [[Prompt_Engineering/Advanced_Prompt_Engineering_Strategies|Продвинутые стратегии Prompt Engineering]] - продвинутые техники промпт-инжиниринга
 - [[Prompt_Engineering/Prompt_Engineering_for_Business_Applications|Prompt Engineering для бизнес-приложений]] - практическое применение промпт-инжиниринга для решения бизнес-задач
+- [[Prompt_Engineering/Prompt_Engineering_for_Chatbot_Development|Prompt Engineering для разработки чатботов]] - создание специализированных чатботов с ролями, ограничениями и внешним контекстом
 
 ## Практика
 

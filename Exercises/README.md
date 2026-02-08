@@ -9,6 +9,8 @@
 - `02_Chat_Roles_and_Conversations_Exercise.md` - система ролей и многоэтапные диалоги
 - `03_Prompt_Engineering_Exercise.md` - лучшие практики создания эффективных промптов
 - `04_Advanced_Prompt_Engineering_Strategies_Exercise.md` - продвинутые стратегии (Shot Prompting, Chain-of-Thought, Self-Consistency)
+- `05_Business_Applications_Prompt_Engineering_Exercise.md` - применение промпт-инжиниринга для бизнес-задач
+- `06_Prompt_Engineering_for_Chatbots_Exercise.md` - создание специализированных чатботов с ролями и контекстом
 - Следующие задания добавляются по мере роста базы знаний
 
 ### Директории для решений и проверок
@@ -51,6 +53,7 @@
 | 03 | [Prompt Engineering Best Practices](03_Prompt_Engineering_Exercise.md) | Prompt Engineering | Начальный | ~90 мин | [✅](Solves/03_Prompt_Engineering_Solves.ipynb) | [✅](Reviews/03_Prompt_Engineering_Review.md) |
 | 04 | [Advanced Prompt Engineering Strategies](04_Advanced_Prompt_Engineering_Strategies_Exercise.md) | Advanced Prompt Engineering | Средний | ~120 мин | [✅](Solves/04_Advanced_Prompt_Engineering_Strategies_Solve.ipynb) | [✅](Reviews/04_Advanced_Prompt_Engineering_Strategies_Review.md) |
 | 05 | [Business Applications Prompt Engineering](05_Business_Applications_Prompt_Engineering_Exercise.md) | Практическое применение | Средний | ~95 мин | [✅](Solves/05_Business_Applications_Prompt_Engineering_Solve.ipynb) | [✅](Reviews/05_Business_Applications_Prompt_Engineering_Review_v4.md) |
+| 06 | [Prompt Engineering for Chatbots](06_Prompt_Engineering_for_Chatbots_Exercise.md) | Разработка чатботов | Средний | ~110 мин | ⏳ | ⏳ |
 
 ## Описание заданий
 
@@ -153,6 +156,26 @@
 - [[Prompt_Engineering/Prompt_Engineering_Best_Practices|Лучшие практики Prompt Engineering]]
 - [[OpenAI_API/Working_with_OpenAI_API_in_Python|Работа с OpenAI API в Python]]
 
+---
+
+### 06. Prompt Engineering for Chatbots
+
+**Что вы освоите:**
+- Определение роли и цели чатбота через system prompt
+- Настройку поведения: тональность, длина ответов, структура общения
+- Установку границ и ограничений для предотвращения неправильного использования
+- Создание трех версий чатбота с разными тональностями
+- Включение внешнего контекста (каталоги товаров, базы знаний)
+- Построение комплексных чатботов с условной логикой и многошаговыми диалогами
+- Реализацию мультиязычной поддержки с автоматическим определением языка
+
+**Предварительные требования:** Выполненные задания №02 и №05, понимание работы с системными ролями
+
+**Связанные заметки:**
+- [[Prompt_Engineering/Prompt_Engineering_for_Chatbot_Development|Prompt Engineering для разработки чатботов]]
+- [[OpenAI_API/Chat_Roles_and_Multi_Turn_Conversations|Роли в чатах и многоэтапные диалоги]]
+- [[Prompt_Engineering/Prompt_Engineering_Best_Practices|Лучшие практики Prompt Engineering]]
+
 ## Рекомендуемый порядок выполнения
 
 ```mermaid
@@ -161,7 +184,8 @@ graph LR
     B --> C[Задание 03:<br/>Prompt Engineering]
     C --> D[Задание 04:<br/>Advanced Strategies]
     D --> E[Задание 05:<br/>Business Applications]
-    E --> F[Будущие задания]
+    E --> F[Задание 06:<br/>Chatbot Development]
+    F --> G[Будущие задания]
 ```
 
 **Важно:** Задания построены с прогрессивным увеличением сложности. Рекомендуется выполнять их последовательно для лучшего усвоения материала.

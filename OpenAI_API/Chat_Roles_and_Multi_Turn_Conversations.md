@@ -9,6 +9,7 @@
 - [[Prompt_Engineering/Prompt_Engineering_Best_Practices|Лучшие практики Prompt Engineering]] - ключевые принципы создания эффективных промптов, структурирование запросов
 - [[Prompt_Engineering/Advanced_Prompt_Engineering_Strategies|Продвинутые стратегии Prompt Engineering]] - Few-Shot через user-assistant диалоги, Chain-of-Thought и другие продвинутые техники
 - [[Prompt_Engineering/Prompt_Engineering_for_Business_Applications|Prompt Engineering для бизнес-приложений]] - практическое применение ролей и диалогов для бизнес-задач
+- [[Prompt_Engineering/Prompt_Engineering_for_Chatbot_Development|Prompt Engineering для разработки чатботов]] - практическое применение ролей для создания специализированных чатботов с правильным поведением и ограничениями
 - [[Exercises/02_Chat_Roles_and_Conversations_Exercise|Практическое задание №2]] - задания для отработки навыков работы с ролями и диалогами
 
 ## Подготовка к работе
