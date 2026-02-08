@@ -413,6 +413,7 @@ prompt = create_prompt(
 - [[OpenAI_API/Chat_Roles_and_Multi_Turn_Conversations|Роли в чатах и многоэтапные диалоги]]
 - [[OpenAI_API/Introduction_to_OpenAI_API|Введение в OpenAI API]]
 - [[Exercises/03_Prompt_Engineering_Exercise|Практическое задание №3]] - отработка лучших практик prompt engineering на практике
+- [[Exercises/05_Business_Applications_Prompt_Engineering_Exercise|Практическое задание №5]] - применение техник промпт-инжиниринга для решения бизнес-задач
 
 ---
 

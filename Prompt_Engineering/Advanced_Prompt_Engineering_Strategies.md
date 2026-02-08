@@ -567,6 +567,7 @@ response = client.chat.completions.create(
 - [[Python_for_AI/Tenacity_Library_for_Retry_Logic|Библиотека Tenacity для retry-логики]] - надежные API-вызовы с автоматическими повторами
 - [[Exercises/03_Prompt_Engineering_Exercise|Практическое задание №3]] - отработка базовых техник prompt engineering
 - [[Exercises/04_Advanced_Prompt_Engineering_Strategies_Exercise|Практическое задание №4]] - комплексная отработка продвинутых стратегий (Shot Prompting, Chain-of-Thought, Self-Consistency, Multi-Step, итеративное улучшение)
+- [[Exercises/05_Business_Applications_Prompt_Engineering_Exercise|Практическое задание №5]] - применение продвинутых техник для решения бизнес-задач (резюмирование, трансформация текста, анализ, генерация кода)
 
 ---
 

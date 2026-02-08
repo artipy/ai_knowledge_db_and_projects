@@ -6,6 +6,7 @@
 
 **Для базовых техник** см. [[Prompt_Engineering/Prompt_Engineering_Best_Practices|Лучшие практики Prompt Engineering]].
 **Для продвинутых стратегий** см. [[Prompt_Engineering/Advanced_Prompt_Engineering_Strategies|Продвинутые стратегии Prompt Engineering]].
+**Для практического применения** см. [[Exercises/05_Business_Applications_Prompt_Engineering_Exercise|Практическое задание №5]].
 
 ---
 

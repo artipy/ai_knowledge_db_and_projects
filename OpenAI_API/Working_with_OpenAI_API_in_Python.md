@@ -392,9 +392,19 @@ print(response.choices[0].message.content)
 5. **Для точных и предсказуемых ответов**: Уменьшайте `temperature` до 0-0.3
 6. **Для задач классификации**: Используйте few-shot prompting с примерами для каждой категории
 
+## Связанные материалы
+
+- [[OpenAI_API/Introduction_to_OpenAI_API|Введение в OpenAI API]] - основы работы с API
+- [[OpenAI_API/Chat_Roles_and_Multi_Turn_Conversations|Роли в чатах и многоэтапные диалоги]] - использование system, user и assistant ролей
+- [[Prompt_Engineering/Prompt_Engineering_Best_Practices|Лучшие практики Prompt Engineering]] - базовые техники построения эффективных промптов
+- [[Prompt_Engineering/Advanced_Prompt_Engineering_Strategies|Продвинутые стратегии Prompt Engineering]] - продвинутые техники промпт-инжиниринга
+- [[Prompt_Engineering/Prompt_Engineering_for_Business_Applications|Prompt Engineering для бизнес-приложений]] - практическое применение промпт-инжиниринга для решения бизнес-задач
+
 ## Практика
 
-Для закрепления материала рекомендуется выполнить [[Exercises/01_OpenAI_API_Text_Processing_Exercise|Практическое задание №1]], которое охватывает все темы из этой заметки.
+Для закрепления материала рекомендуется выполнить следующие задания:
+- [[Exercises/01_OpenAI_API_Text_Processing_Exercise|Практическое задание №1]] - охватывает все темы из этой заметки (редактирование, резюмирование, температура, shot prompting)
+- [[Exercises/05_Business_Applications_Prompt_Engineering_Exercise|Практическое задание №5]] - применение техник для решения реальных бизнес-задач
 
 ---
 

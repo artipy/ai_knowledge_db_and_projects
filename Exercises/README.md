@@ -50,6 +50,7 @@
 | 02 | [Chat Roles and Conversations](02_Chat_Roles_and_Conversations_Exercise.md) | Роли в чатах | Начальный | ~80 мин | [✅](Solves/02_Chat_Roles_and_Conversations_Solve.ipynb) | [✅](Reviews/02_Chat_Roles_and_Conversations_Review.md) |
 | 03 | [Prompt Engineering Best Practices](03_Prompt_Engineering_Exercise.md) | Prompt Engineering | Начальный | ~90 мин | [✅](Solves/03_Prompt_Engineering_Solves.ipynb) | [✅](Reviews/03_Prompt_Engineering_Review.md) |
 | 04 | [Advanced Prompt Engineering Strategies](04_Advanced_Prompt_Engineering_Strategies_Exercise.md) | Advanced Prompt Engineering | Средний | ~120 мин | [✅](Solves/04_Advanced_Prompt_Engineering_Strategies_Solve.ipynb) | [✅](Reviews/04_Advanced_Prompt_Engineering_Strategies_Review.md) |
+| 05 | [Business Applications Prompt Engineering](05_Business_Applications_Prompt_Engineering_Exercise.md) | Практическое применение | Средний | ~95 мин | [✅](Solves/05_Business_Applications_Prompt_Engineering_Solve.ipynb) | [✅](Reviews/05_Business_Applications_Prompt_Engineering_Review_v4.md) |
 
 ## Описание заданий
 
@@ -129,6 +130,29 @@
 - [[Prompt_Engineering/Prompt_Engineering_Best_Practices|Лучшие практики Prompt Engineering]]
 - [[OpenAI_API/Chat_Roles_and_Multi_Turn_Conversations|Роли в чатах и многоэтапные диалоги]]
 
+---
+
+### 05. Business Applications Prompt Engineering
+
+**Что вы освоите:**
+- Резюмирование и расширение текста для различных целей (отзывы, маркетинг, email)
+- Многоэтапную трансформацию текста с chaining промптов
+- Адаптацию технического контента для разных аудиторий
+- Многоклассовую классификацию (тикеты поддержки по категориям, приоритету, тону)
+- Извлечение структурированных данных с few-shot learning
+- Генерацию production-ready кода с валидацией и обработкой ошибок
+- Объяснение, модификацию и расширение существующего кода
+- Построение комплексных пайплайнов обработки данных
+- Расчет стоимости и оптимизацию API-вызовов
+
+**Предварительные требования:** Выполненные задания №01-04, понимание продвинутых техник prompt engineering
+
+**Связанные заметки:**
+- [[Prompt_Engineering/Prompt_Engineering_for_Business_Applications|Prompt Engineering для бизнес-приложений]]
+- [[Prompt_Engineering/Advanced_Prompt_Engineering_Strategies|Продвинутые стратегии Prompt Engineering]]
+- [[Prompt_Engineering/Prompt_Engineering_Best_Practices|Лучшие практики Prompt Engineering]]
+- [[OpenAI_API/Working_with_OpenAI_API_in_Python|Работа с OpenAI API в Python]]
+
 ## Рекомендуемый порядок выполнения
 
 ```mermaid
@@ -136,7 +160,8 @@ graph LR
     A[Задание 01:<br/>Text Processing] --> B[Задание 02:<br/>Chat Roles]
     B --> C[Задание 03:<br/>Prompt Engineering]
     C --> D[Задание 04:<br/>Advanced Strategies]
-    D --> E[Будущие задания]
+    D --> E[Задание 05:<br/>Business Applications]
+    E --> F[Будущие задания]
 ```
 
 **Важно:** Задания построены с прогрессивным увеличением сложности. Рекомендуется выполнять их последовательно для лучшего усвоения материала.
