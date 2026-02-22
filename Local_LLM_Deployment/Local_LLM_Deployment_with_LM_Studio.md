@@ -3,6 +3,8 @@
 Эта заметка описывает процесс развертывания и взаимодействия с локальными крупными языковыми моделями (LLM) с использованием LM Studio. Это позволяет запускать мощные модели прямо на вашем компьютере, используя их через простой API, совместимый с OpenAI.
 
 ## Связанные заметки
+- [[LLMOps/Introduction_to_LLMOps_and_Ideation_Phase]] — выбор между open-source и проприетарными моделями в рамках LLMOps
+- [[Hugging_Face/Getting_Started_with_Hugging_Face]] — альтернативный способ работы с open-source моделями через Hugging Face
 - [[Prompt_Engineering/Основы_Prompt_Engineering]] - техники создания эффективных промптов для локальных моделей
 - [[OpenAI_API/Working_with_OpenAI_API_in_Python]] - работа с OpenAI API (синтаксис совместим с LM Studio)
 - [[Python_for_AI/Tenacity_Library_for_Retry_Logic|Библиотека Tenacity для retry-логики]] - обработка ошибок при работе с локальными моделями

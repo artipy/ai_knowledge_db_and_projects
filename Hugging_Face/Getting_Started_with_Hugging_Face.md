@@ -168,6 +168,7 @@ print(sliced[0]['text'])
 ## Связанные темы
 
 - [[Building_Pipelines_with_Hugging_Face]] — углублённое руководство по Pipeline: классификация, резюмирование, Auto-классы, Document QA
+- [[LLMOps/Introduction_to_LLMOps_and_Ideation_Phase]] — выбор модели (open-source vs проприетарные) в контексте LLMOps
 - [[Working_with_OpenAI_API_in_Python]] — работа с OpenAI API для сравнения подходов
 - [[Local_LLM_Deployment/Local_LLM_Deployment_with_LM_Studio]] — локальный деплой моделей через LM Studio
 - [[Python_for_AI/Python_Decorators]] — полезные Python-паттерны для работы с AI
