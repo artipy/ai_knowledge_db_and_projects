@@ -7,6 +7,7 @@
 Этот репозиторий представляет собой структурированную коллекцию знаний о:
 - Работе с OpenAI API и совместимыми сервисами
 - Техниках промпт-инжиниринга
+- Работе с Hugging Face: Pipeline API, Auto-классы, Document QA
 - Локальном развертывании LLM моделей
 - Python инструментах для AI engineers (декораторы, retry-логика, обработка ошибок)
 - Практическом применении AI в задачах обработки текста
@@ -29,6 +30,10 @@ knowledge_lib/
 │   ├── Advanced_Prompt_Engineering_Strategies.md
 │   ├── Prompt_Engineering_for_Business_Applications.md
 │   └── Prompt_Engineering_for_Chatbot_Development.md
+│
+├── Hugging_Face/                  # Работа с Hugging Face
+│   ├── Getting_Started_with_Hugging_Face.md
+│   └── Building_Pipelines_with_Hugging_Face.md
 │
 ├── Local_LLM_Deployment/          # Локальное развертывание моделей
 │   └── Local_LLM_Deployment_with_LM_Studio.md
@@ -106,6 +111,16 @@ knowledge_lib/
 - **Включение внешнего контекста**: Встраивание баз знаний, каталогов, FAQ в system prompt
 - **Мультиязычная поддержка**: Автоматическое определение языка и ответы на соответствующем языке
 - Комплексные чатботы с условной логикой и многошаговыми диалогами
+
+### Hugging Face
+
+- **Pipeline API**: Высокоуровневый интерфейс для быстрого запуска NLP-моделей
+- **Классификация текста**: Sentiment analysis, проверка грамматики, QNLI, Zero-Shot классификация
+- **Резюмирование текста**: Экстрактивный и абстрактивный подходы, управление длиной ответа
+- **Auto-классы и токенизаторы**: Гибкая загрузка моделей с полным контролем над инференсом
+- **Document QA**: Ответы на вопросы по PDF-документам с использованием pypdf
+- **InferenceClient**: Удалённый запуск моделей через провайдеров без локальных ресурсов
+- **Датасеты**: Работа с Hugging Face Datasets, формат Apache Arrow, фильтрация и выборка
 
 ### Python для AI Engineers
 - **Декораторы**: Функции высшего порядка, @wraps, параметризованные декораторы
@@ -262,7 +277,7 @@ echo "BASE_MODEL=your_model" >> .env
 
 ---
 
-**Последнее обновление:** 2026-02-09
-**Количество заметок:** 11 основных (3 OpenAI API, 4 Prompt Engineering, 1 Local LLM, 2 Python for AI, 1 Chatbot Development)
+**Последнее обновление:** 2026-02-22
+**Количество заметок:** 13 основных (3 OpenAI API, 4 Prompt Engineering, 2 Hugging Face, 1 Local LLM, 2 Python for AI)
 **Количество заданий:** 6 (задания 01-06 с решениями и ревью)
 **Статус:** Активная разработка
