@@ -36,7 +36,8 @@ knowledge_lib/
 │   └── Building_Pipelines_with_Hugging_Face.md
 │
 ├── LLMOps/                        # LLMOps практики и жизненный цикл LLM
-│   └── Introduction_to_LLMOps_and_Ideation_Phase.md
+│   ├── Introduction_to_LLMOps_and_Ideation_Phase.md
+│   └── Development_Phase.md
 │
 ├── Local_LLM_Deployment/          # Локальное развертывание моделей
 │   └── Local_LLM_Deployment_with_LM_Studio.md
@@ -122,6 +123,7 @@ knowledge_lib/
 - **Жизненный цикл LLM**: Три фазы — Ideation → Development → Operation — с возможностью нелинейных итераций
 - **Фаза идеации**: Оценка данных (соответствие, доступность, стандартизация), выбор базовой модели
 - **Выбор модели**: Проприетарные vs Open-Source — преимущества, недостатки, ключевые факторы (производительность, лицензии, стоимость)
+- **Фаза разработки**: Prompt Engineering (структура промпта, управление промптами, шаблоны), Chains & Agents (детерминированные vs адаптивные архитектуры), RAG (векторные БД, embeddings) vs Fine-tuning (Supervised FT, RLHF), Testing (статистический, LLM-as-a-Judge, категориальный)
 
 ### Hugging Face
 
@@ -289,6 +291,6 @@ echo "BASE_MODEL=your_model" >> .env
 ---
 
 **Последнее обновление:** 2026-02-22
-**Количество заметок:** 14 основных (3 OpenAI API, 4 Prompt Engineering, 2 Hugging Face, 1 LLMOps, 1 Local LLM, 2 Python for AI)
+**Количество заметок:** 15 основных (3 OpenAI API, 4 Prompt Engineering, 2 Hugging Face, 2 LLMOps, 1 Local LLM, 2 Python for AI)
 **Количество заданий:** 6 (задания 01-06 с решениями и ревью)
 **Статус:** Активная разработка

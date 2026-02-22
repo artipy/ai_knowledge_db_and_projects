@@ -125,7 +125,7 @@ Ideation ⟷ Development ⟷ Operation
 
 ## Связанные темы
 
-- [[LLMOps/Development_and_Operation_Phases]] — фазы разработки и эксплуатации LLM-приложений
+- [[LLMOps/Development_Phase]] — фаза разработки: Prompt Engineering, Chains & Agents, RAG vs Fine-tuning, Testing
 - [[Hugging_Face/Getting_Started_with_Hugging_Face]] — выбор и загрузка open-source моделей через Hugging Face
 - [[Hugging_Face/Building_Pipelines_with_Hugging_Face]] — практическое использование моделей через Pipeline API
 - [[Local_LLM_Deployment/Local_LLM_Deployment_with_LM_Studio]] — локальное развёртывание open-source моделей
