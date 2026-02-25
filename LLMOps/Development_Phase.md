@@ -3,6 +3,7 @@
 Фаза разработки — это **циклический процесс** построения и улучшения приложения (цикл разработки). Он включает четыре ключевых этапа: Prompt Engineering → Chains & Agents → RAG & Fine-tuning → Testing.
 
 Общий контекст жизненного цикла: [[Introduction_to_LLMOps_and_Ideation_Phase]]
+Следующий этап: [[Operational_Phase]]
 
 ---
 
