@@ -10,6 +10,7 @@
 - [[Prompt_Engineering/Prompt_Engineering_for_Business_Applications|Prompt Engineering для бизнес-приложений]] - практическое применение промпт-инжиниринга для бизнес-задач (резюмирование, трансформация, анализ, генерация кода)
 - [[Prompt_Engineering/Prompt_Engineering_for_Chatbot_Development|Prompt Engineering для разработки чатботов]] - создание специализированных чатботов с использованием ролей и контекста
 - [[Python_for_AI/Tenacity_Library_for_Retry_Logic|Библиотека Tenacity для retry-логики]] - обработка ошибок API, rate limits и автоматические повторные попытки
+- [[OpenAI_API/Structuring_End_to_End_Applications|Структурирование end-to-end приложений]] - обработка ошибок, батчинг, JSON-формат и подсчёт токенов в production-коде
 - [[Exercises/01_OpenAI_API_Text_Processing_Exercise|Практическое задание №1]] - задания для проверки усвоенных знаний по работе с API
 
 ## Подготовка к работе
