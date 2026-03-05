@@ -11,7 +11,7 @@
 - `04_Advanced_Prompt_Engineering_Strategies_Exercise.md` - продвинутые стратегии (Shot Prompting, Chain-of-Thought, Self-Consistency)
 - `05_Business_Applications_Prompt_Engineering_Exercise.md` - применение промпт-инжиниринга для бизнес-задач
 - `06_Prompt_Engineering_for_Chatbots_Exercise.md` - создание специализированных чатботов с ролями и контекстом
-- Следующие задания добавляются по мере роста базы знаний
+- `07_Structuring_End_to_End_Applications_Exercise.md` - production-ready паттерны: структурированный JSON, обработка ошибок, батчинг, retry-логика, подсчёт токенов
 
 ### Директории для решений и проверок
 
@@ -54,6 +54,7 @@
 | 04 | [Advanced Prompt Engineering Strategies](04_Advanced_Prompt_Engineering_Strategies_Exercise.md) | Advanced Prompt Engineering | Средний | ~120 мин | [✅](Solves/04_Advanced_Prompt_Engineering_Strategies_Solve.ipynb) | [✅](Reviews/04_Advanced_Prompt_Engineering_Strategies_Review.md) |
 | 05 | [Business Applications Prompt Engineering](05_Business_Applications_Prompt_Engineering_Exercise.md) | Практическое применение | Средний | ~95 мин | [✅](Solves/05_Business_Applications_Prompt_Engineering_Solve.ipynb) | [✅](Reviews/05_Business_Applications_Prompt_Engineering_Review_v4.md) |
 | 06 | [Prompt Engineering for Chatbots](06_Prompt_Engineering_for_Chatbots_Exercise.md) | Разработка чатботов | Средний | ~110 мин | [✅](Solves/06_Prompt_Engineering_for_Chatbots_Solve.ipynb) | [✅](Reviews/06_Prompt_Engineering_for_Chatbots_Review.md) |
+| 07 | [Structuring End-to-End Applications](07_Structuring_End_to_End_Applications_Exercise.md) | Production API паттерны | Средний | ~100 мин | [✅](Solves/07_Structuring_End_to_End_Applications_Solve.ipynb) | [✅](Reviews/07_Structuring_End_to_End_Applications_Review.md) |
 
 ## Описание заданий
 
@@ -176,6 +177,28 @@
 - [[OpenAI_API/Chat_Roles_and_Multi_Turn_Conversations|Роли в чатах и многоэтапные диалоги]]
 - [[Prompt_Engineering/Prompt_Engineering_Best_Practices|Лучшие практики Prompt Engineering]]
 
+---
+
+### 07. Structuring End-to-End Applications
+
+**Что вы освоите:**
+- Запрос и парсинг структурированных JSON-ответов через `response_format`
+- Раздельную обработку разных типов ошибок OpenAI API (Auth, RateLimit, BadRequest)
+- Логирование запросов с подсчётом использованных токенов
+- Оптимизацию числа запросов через батчинг (сравнение одиночных vs. пакетных запросов)
+- Реализацию retry-логики с экспоненциальным откатом через `tenacity`
+- Объединение `@retry` и `try/except` в production-ready функцию
+- Подсчёт токенов до отправки запроса с помощью `tiktoken`
+- Построение полного пайплайна обработки текста со всеми перечисленными элементами
+
+**Предварительные требования:** Выполненные задания №1–2, установленные библиотеки `openai`, `python-dotenv`, `tenacity`, `tiktoken`
+
+**Связанные заметки:**
+- [[OpenAI_API/Structuring_End_to_End_Applications|Структурирование end-to-end приложений]]
+- [[OpenAI_API/Working_with_OpenAI_API_in_Python|Работа с OpenAI API в Python]]
+- [[Python_for_AI/Tenacity_Library_for_Retry_Logic|Библиотека Tenacity для retry-логики]]
+- [[Python_for_AI/Python_Decorators|Декораторы в Python]]
+
 ## Рекомендуемый порядок выполнения
 
 ```mermaid
@@ -185,7 +208,8 @@ graph LR
     C --> D[Задание 04:<br/>Advanced Strategies]
     D --> E[Задание 05:<br/>Business Applications]
     E --> F[Задание 06:<br/>Chatbot Development]
-    F --> G[Будущие задания]
+    F --> G[Задание 07:<br/>End-to-End Applications]
+    G --> H[Будущие задания]
 ```
 
 **Важно:** Задания построены с прогрессивным увеличением сложности. Рекомендуется выполнять их последовательно для лучшего усвоения материала.

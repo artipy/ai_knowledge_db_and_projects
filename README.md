@@ -57,11 +57,11 @@ knowledge_lib/
 │   ├── Solves/                    # Решения заданий (.ipynb)
 │   │   ├── 01_OpenAI_API_Text_Processing_Solve.ipynb
 │   │   ├── 02_Chat_Roles_and_Conversations_Solve.ipynb
-│   │   └── ... (05 solutions total)
+│   │   └── ... (07 solutions total)
 │   └── Reviews/                   # Проверки решений (*_Review.md)
 │       ├── 01_OpenAI_API_Text_Processing_Review.md
 │       ├── 02_Chat_Roles_and_Conversations_Review.md
-│       └── ... (05 reviews total)
+│       └── ... (07 reviews total)
 │
 ├── raw_notes/                     # Необработанные материалы
 │   └── *.ipynb                    # Jupyter notebooks для обработки
@@ -248,6 +248,7 @@ echo "BASE_MODEL=your_model" >> .env
 | 04 | Advanced Prompt Engineering Strategies | Продвинутый Prompt Engineering | Средний | ~120 мин | ✅ | ✅ |
 | 05 | Business Applications Prompt Engineering | Практическое применение для бизнеса | Средний | ~95 мин | ✅ | ✅ (v4) |
 | 06 | Prompt Engineering for Chatbots | Разработка чатботов | Средний | ~110 мин | ✅ | ✅ |
+| 07 | Structuring End-to-End Applications | Production API паттерны | Средний | ~100 мин | ✅ | ✅ |
 
 ## 🚀 Roadmap
 
@@ -266,6 +267,7 @@ echo "BASE_MODEL=your_model" >> .env
 ### Планируемые задания
 - [x] Построение чат-ботов с контекстом
 - [x] Создание специализированных чатботов с ролями и ограничениями
+- [x] Production-ready API паттерны (JSON, ошибки, батчинг, retry, токены)
 - [ ] Классификация и анализ настроений (advanced)
 - [ ] Работа с большими документами
 - [ ] Создание специализированных ассистентов с RAG
@@ -290,7 +292,7 @@ echo "BASE_MODEL=your_model" >> .env
 
 ---
 
-**Последнее обновление:** 2026-02-22
-**Количество заметок:** 15 основных (3 OpenAI API, 4 Prompt Engineering, 2 Hugging Face, 2 LLMOps, 1 Local LLM, 2 Python for AI)
-**Количество заданий:** 6 (задания 01-06 с решениями и ревью)
+**Последнее обновление:** 2026-02-28
+**Количество заметок:** 16 основных (4 OpenAI API, 4 Prompt Engineering, 2 Hugging Face, 2 LLMOps, 1 Local LLM, 2 Python for AI)
+**Количество заданий:** 7 (задания 01-07 с решениями и ревью)
 **Статус:** Активная разработка
