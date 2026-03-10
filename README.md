@@ -254,7 +254,7 @@ echo "BASE_MODEL=your_model" >> .env
 | 05 | Business Applications Prompt Engineering | Практическое применение для бизнеса | Средний | ~95 мин | ✅ | ✅ (v4) |
 | 06 | Prompt Engineering for Chatbots | Разработка чатботов | Средний | ~110 мин | ✅ | ✅ |
 | 07 | Structuring End-to-End Applications | Production API паттерны | Средний | ~100 мин | ✅ | ✅ |
-| 08 | Function Calling | Function calling и интеграция с API | Средний | ~95 мин | ⬜ | ⬜ |
+| 08 | Function Calling | Function calling и интеграция с API | Средний | ~95 мин | ✅ | ✅ |
 
 ## 🚀 Roadmap
 
@@ -300,5 +300,5 @@ echo "BASE_MODEL=your_model" >> .env
 
 **Последнее обновление:** 2026-03-10
 **Количество заметок:** 17 основных (5 OpenAI API, 4 Prompt Engineering, 2 Hugging Face, 2 LLMOps, 1 Local LLM, 2 Python for AI)
-**Количество заданий:** 8 (задания 01-07 с решениями и ревью, задание 08 без решения)
+**Количество заданий:** 8 (задания 01-08 с решениями и ревью)
 **Статус:** Активная разработка
