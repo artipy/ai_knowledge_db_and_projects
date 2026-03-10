@@ -25,7 +25,8 @@ knowledge_lib/
 │   ├── Working_with_OpenAI_API_in_Python.md
 │   ├── Chat_Roles_and_Multi_Turn_Conversations.md
 │   ├── Structuring_End_to_End_Applications.md
-│   └── Function_Calling.md
+│   ├── Function_Calling.md
+│   └── Best_Practices_for_Production_Applications.md
 │
 ├── Prompt_Engineering/            # Техники промпт-инжиниринга
 │   ├── Prompt_Engineering_Best_Practices.md
@@ -85,6 +86,7 @@ knowledge_lib/
 - Многоэтапные диалоги с сохранением контекста (multi-turn conversations)
 - Управление поведением модели через системные сообщения
 - Function calling: определение функций, извлечение структурированных данных, параллельный вызов, `tool_choice`, интеграция с внешними API
+- Лучшие практики для production: модерация контента (safe/unsafe классификация, guardrails), валидация модели (adversarial testing, обнаружение сарказма), безопасность (идентификация пользователей через UUID, защита API-ключей)
 
 ### Prompt Engineering
 **Базовые практики:**
@@ -298,7 +300,7 @@ echo "BASE_MODEL=your_model" >> .env
 
 ---
 
-**Последнее обновление:** 2026-03-10
-**Количество заметок:** 17 основных (5 OpenAI API, 4 Prompt Engineering, 2 Hugging Face, 2 LLMOps, 1 Local LLM, 2 Python for AI)
+**Последнее обновление:** 2026-03-11
+**Количество заметок:** 18 основных (6 OpenAI API, 4 Prompt Engineering, 2 Hugging Face, 2 LLMOps, 1 Local LLM, 2 Python for AI)
 **Количество заданий:** 8 (задания 01-08 с решениями и ревью)
 **Статус:** Активная разработка

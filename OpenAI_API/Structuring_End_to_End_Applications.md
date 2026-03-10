@@ -8,6 +8,7 @@
 - [[OpenAI_API/Working_with_OpenAI_API_in_Python|Работа с OpenAI API в Python]] - практические примеры вызовов и параметров
 - [[Python_for_AI/Tenacity_Library_for_Retry_Logic|Библиотека Tenacity для retry-логики]] - подробное руководство по retry-паттернам
 - [[Python_for_AI/Python_Decorators|Декораторы в Python]] - основы декораторов, используемых в tenacity
+- [[OpenAI_API/Best_Practices_for_Production_Applications|Лучшие практики для production-приложений]] - модерация, валидация и безопасность
 
 ## Структурирование вызова API
 
