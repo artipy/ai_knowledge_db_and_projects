@@ -213,6 +213,7 @@ print(f'Кол-во токенов в запросе: {num_tokens}')
 - [[OpenAI_API/Introduction_to_OpenAI_API|Введение в OpenAI API]] - основы работы с API
 - [[OpenAI_API/Working_with_OpenAI_API_in_Python|Работа с OpenAI API в Python]] - практические примеры
 - [[OpenAI_API/Chat_Roles_and_Multi_Turn_Conversations|Роли в чатах и многоэтапные диалоги]] - системные сообщения и контекст
+- [[OpenAI_API/Function_Calling|Вызов функций (Function Calling)]] - структурированные ответы через tools
 - [[Python_for_AI/Tenacity_Library_for_Retry_Logic|Библиотека Tenacity для retry-логики]] - подробное руководство по retry
 - [[Python_for_AI/Python_Decorators|Декораторы в Python]] - как устроены декораторы изнутри
 

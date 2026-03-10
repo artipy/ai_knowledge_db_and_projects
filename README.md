@@ -23,7 +23,9 @@ knowledge_lib/
 ├── OpenAI_API/                    # Работа с OpenAI API
 │   ├── Introduction_to_OpenAI_API.md
 │   ├── Working_with_OpenAI_API_in_Python.md
-│   └── Chat_Roles_and_Multi_Turn_Conversations.md
+│   ├── Chat_Roles_and_Multi_Turn_Conversations.md
+│   ├── Structuring_End_to_End_Applications.md
+│   └── Function_Calling.md
 │
 ├── Prompt_Engineering/            # Техники промпт-инжиниринга
 │   ├── Prompt_Engineering_Best_Practices.md
@@ -54,6 +56,8 @@ knowledge_lib/
 │   ├── 04_Advanced_Prompt_Engineering_Strategies_Exercise.md
 │   ├── 05_Business_Applications_Prompt_Engineering_Exercise.md
 │   ├── 06_Prompt_Engineering_for_Chatbots_Exercise.md
+│   ├── 07_Structuring_End_to_End_Applications_Exercise.md
+│   ├── 08_Function_Calling_Exercise.md
 │   ├── Solves/                    # Решения заданий (.ipynb)
 │   │   ├── 01_OpenAI_API_Text_Processing_Solve.ipynb
 │   │   ├── 02_Chat_Roles_and_Conversations_Solve.ipynb
@@ -80,6 +84,7 @@ knowledge_lib/
 - Система ролей в чатах: system, user, assistant
 - Многоэтапные диалоги с сохранением контекста (multi-turn conversations)
 - Управление поведением модели через системные сообщения
+- Function calling: определение функций, извлечение структурированных данных, параллельный вызов, `tool_choice`, интеграция с внешними API
 
 ### Prompt Engineering
 **Базовые практики:**
@@ -249,6 +254,7 @@ echo "BASE_MODEL=your_model" >> .env
 | 05 | Business Applications Prompt Engineering | Практическое применение для бизнеса | Средний | ~95 мин | ✅ | ✅ (v4) |
 | 06 | Prompt Engineering for Chatbots | Разработка чатботов | Средний | ~110 мин | ✅ | ✅ |
 | 07 | Structuring End-to-End Applications | Production API паттерны | Средний | ~100 мин | ✅ | ✅ |
+| 08 | Function Calling | Function calling и интеграция с API | Средний | ~95 мин | ⬜ | ⬜ |
 
 ## 🚀 Roadmap
 
@@ -257,7 +263,7 @@ echo "BASE_MODEL=your_model" >> .env
 - [x] Retry-логика и обработка ошибок (Tenacity)
 - [x] Advanced Prompt Engineering техники (Shot Prompting, Chain-of-Thought, Self-Consistency)
 - [ ] Работа с эмбеддингами и векторными базами
-- [ ] Function calling и Tool use
+- [x] Function calling и Tool use
 - [ ] RAG (Retrieval-Augmented Generation)
 - [ ] Fine-tuning моделей
 - [ ] Оценка качества и benchmarking
@@ -292,7 +298,7 @@ echo "BASE_MODEL=your_model" >> .env
 
 ---
 
-**Последнее обновление:** 2026-02-28
-**Количество заметок:** 16 основных (4 OpenAI API, 4 Prompt Engineering, 2 Hugging Face, 2 LLMOps, 1 Local LLM, 2 Python for AI)
-**Количество заданий:** 7 (задания 01-07 с решениями и ревью)
+**Последнее обновление:** 2026-03-10
+**Количество заметок:** 17 основных (5 OpenAI API, 4 Prompt Engineering, 2 Hugging Face, 2 LLMOps, 1 Local LLM, 2 Python for AI)
+**Количество заданий:** 8 (задания 01-07 с решениями и ревью, задание 08 без решения)
 **Статус:** Активная разработка

@@ -12,6 +12,7 @@
 - `05_Business_Applications_Prompt_Engineering_Exercise.md` - применение промпт-инжиниринга для бизнес-задач
 - `06_Prompt_Engineering_for_Chatbots_Exercise.md` - создание специализированных чатботов с ролями и контекстом
 - `07_Structuring_End_to_End_Applications_Exercise.md` - production-ready паттерны: структурированный JSON, обработка ошибок, батчинг, retry-логика, подсчёт токенов
+- `08_Function_Calling_Exercise.md` - function calling: определение функций, извлечение данных, параллельный вызов, tool_choice, интеграция с внешним API
 
 ### Директории для решений и проверок
 
@@ -55,6 +56,7 @@
 | 05 | [Business Applications Prompt Engineering](05_Business_Applications_Prompt_Engineering_Exercise.md) | Практическое применение | Средний | ~95 мин | [✅](Solves/05_Business_Applications_Prompt_Engineering_Solve.ipynb) | [✅](Reviews/05_Business_Applications_Prompt_Engineering_Review_v4.md) |
 | 06 | [Prompt Engineering for Chatbots](06_Prompt_Engineering_for_Chatbots_Exercise.md) | Разработка чатботов | Средний | ~110 мин | [✅](Solves/06_Prompt_Engineering_for_Chatbots_Solve.ipynb) | [✅](Reviews/06_Prompt_Engineering_for_Chatbots_Review.md) |
 | 07 | [Structuring End-to-End Applications](07_Structuring_End_to_End_Applications_Exercise.md) | Production API паттерны | Средний | ~100 мин | [✅](Solves/07_Structuring_End_to_End_Applications_Solve.ipynb) | [✅](Reviews/07_Structuring_End_to_End_Applications_Review.md) |
+| 08 | [Function Calling](08_Function_Calling_Exercise.md) | Function calling и интеграция с API | Средний | ~95 мин | ⬜ | ⬜ |
 
 ## Описание заданий
 
@@ -199,6 +201,25 @@
 - [[Python_for_AI/Tenacity_Library_for_Retry_Logic|Библиотека Tenacity для retry-логики]]
 - [[Python_for_AI/Python_Decorators|Декораторы в Python]]
 
+---
+
+### 08. Function Calling
+
+**Что вы освоите:**
+- Определение функций с точными схемами параметров и передачу через `tools`
+- Извлечение структурированных данных из текста надёжнее, чем через `json_object`
+- Параллельный вызов нескольких функций в одном запросе
+- Управление выбором функции через `tool_choice` (auto и принудительный)
+- Предотвращение домыслов модели с помощью системных сообщений
+- Интеграцию OpenAI API с внешними REST API через function calling
+
+**Предварительные требования:** Выполненные задания №01 и №07, установленные библиотеки `openai`, `python-dotenv`, `requests`
+
+**Связанные заметки:**
+- [[OpenAI_API/Function_Calling|Вызов функций (Function Calling)]]
+- [[OpenAI_API/Structuring_End_to_End_Applications|Структурирование end-to-end приложений]]
+- [[OpenAI_API/Chat_Roles_and_Multi_Turn_Conversations|Роли в чатах и многоэтапные диалоги]]
+
 ## Рекомендуемый порядок выполнения
 
 ```mermaid
@@ -209,7 +230,8 @@ graph LR
     D --> E[Задание 05:<br/>Business Applications]
     E --> F[Задание 06:<br/>Chatbot Development]
     F --> G[Задание 07:<br/>End-to-End Applications]
-    G --> H[Будущие задания]
+    G --> H[Задание 08:<br/>Function Calling]
+    H --> I[Будущие задания]
 ```
 
 **Важно:** Задания построены с прогрессивным увеличением сложности. Рекомендуется выполнять их последовательно для лучшего усвоения материала.
