@@ -259,3 +259,4 @@ print(f"Answer is: {result['answer']}")
 - [[Working_with_OpenAI_API_in_Python]] — альтернативный подход к NLP-задачам через OpenAI API
 - [[Local_LLM_Deployment/Local_LLM_Deployment_with_LM_Studio]] — локальный запуск моделей без Hugging Face
 - [[Prompt_Engineering/Prompt_Engineering_Best_Practices]] — эффективные промпты для NLP-задач
+- [[OpenAI_API/Working_with_Embeddings]] — векторные представления текста и семантический поиск (sentence-transformers как альтернатива OpenAI Embeddings)
