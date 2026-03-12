@@ -150,6 +150,7 @@ matplotlib
 
 ## Связанные темы
 
+- [[Exercises/09_Working_with_Embeddings_Exercise]] — практическое задание по теме
 - [[OpenAI_API/Introduction_to_OpenAI_API]] — основы работы с OpenAI API
 - [[OpenAI_API/Working_with_OpenAI_API_in_Python]] — Python-интеграция и паттерны
 - [[LLMOps/Development_Phase]] — RAG-архитектура использует embeddings для поиска в базе знаний

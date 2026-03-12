@@ -13,6 +13,7 @@
 - `06_Prompt_Engineering_for_Chatbots_Exercise.md` - создание специализированных чатботов с ролями и контекстом
 - `07_Structuring_End_to_End_Applications_Exercise.md` - production-ready паттерны: структурированный JSON, обработка ошибок, батчинг, retry-логика, подсчёт токенов
 - `08_Function_Calling_Exercise.md` - function calling: определение функций, извлечение данных, параллельный вызов, tool_choice, интеграция с внешним API
+- `09_Working_with_Embeddings_Exercise.md` - embeddings: получение векторных представлений, пакетная обработка, косинусное сходство, семантический поиск, классификация, визуализация t-SNE
 
 ### Директории для решений и проверок
 
@@ -57,6 +58,7 @@
 | 06 | [Prompt Engineering for Chatbots](06_Prompt_Engineering_for_Chatbots_Exercise.md) | Разработка чатботов | Средний | ~110 мин | [✅](Solves/06_Prompt_Engineering_for_Chatbots_Solve.ipynb) | [✅](Reviews/06_Prompt_Engineering_for_Chatbots_Review.md) |
 | 07 | [Structuring End-to-End Applications](07_Structuring_End_to_End_Applications_Exercise.md) | Production API паттерны | Средний | ~100 мин | [✅](Solves/07_Structuring_End_to_End_Applications_Solve.ipynb) | [✅](Reviews/07_Structuring_End_to_End_Applications_Review.md) |
 | 08 | [Function Calling](08_Function_Calling_Exercise.md) | Function calling и интеграция с API | Средний | ~95 мин | [✅](Solves/08_Function_Calling_Solve.ipynb) | [✅](Reviews/08_Function_Calling_Review.md) |
+| 09 | [Working with Embeddings](09_Working_with_Embeddings_Exercise.md) | Embeddings и семантический поиск | Средний | ~100 мин | — | — |
 
 ## Описание заданий
 
@@ -220,6 +222,26 @@
 - [[OpenAI_API/Structuring_End_to_End_Applications|Структурирование end-to-end приложений]]
 - [[OpenAI_API/Chat_Roles_and_Multi_Turn_Conversations|Роли в чатах и многоэтапные диалоги]]
 
+---
+
+### 09. Working with Embeddings
+
+**Что вы освоите:**
+- Получение векторных представлений текста через Embeddings API
+- Пакетную обработку нескольких текстов за один запрос
+- Вычисление косинусного расстояния для измерения семантического сходства
+- Реализацию семантического поиска топ-N результатов
+- Автоклассификацию по методу ближайшего соседа без обучения
+- Визуализацию многомерных данных с помощью t-SNE
+- Построение простейшего RAG-компонента для поиска по базе знаний
+
+**Предварительные требования:** Выполненное задание №01, установленные библиотеки `openai`, `python-dotenv`, `scipy`, `scikit-learn`, `numpy`, `matplotlib`
+
+**Связанные заметки:**
+- [[OpenAI_API/Working_with_Embeddings|Работа с Embeddings]]
+- [[OpenAI_API/Working_with_OpenAI_API_in_Python|Работа с OpenAI API в Python]]
+- [[LLMOps/Development_Phase|Фаза разработки — RAG и векторные базы данных]]
+
 ## Рекомендуемый порядок выполнения
 
 ```mermaid
@@ -231,7 +253,8 @@ graph LR
     E --> F[Задание 06:<br/>Chatbot Development]
     F --> G[Задание 07:<br/>End-to-End Applications]
     G --> H[Задание 08:<br/>Function Calling]
-    H --> I[Будущие задания]
+    H --> I[Задание 09:<br/>Embeddings]
+    I --> J[Будущие задания]
 ```
 
 **Важно:** Задания построены с прогрессивным увеличением сложности. Рекомендуется выполнять их последовательно для лучшего усвоения материала.
