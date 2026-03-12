@@ -58,7 +58,7 @@
 | 06 | [Prompt Engineering for Chatbots](06_Prompt_Engineering_for_Chatbots_Exercise.md) | Разработка чатботов | Средний | ~110 мин | [✅](Solves/06_Prompt_Engineering_for_Chatbots_Solve.ipynb) | [✅](Reviews/06_Prompt_Engineering_for_Chatbots_Review.md) |
 | 07 | [Structuring End-to-End Applications](07_Structuring_End_to_End_Applications_Exercise.md) | Production API паттерны | Средний | ~100 мин | [✅](Solves/07_Structuring_End_to_End_Applications_Solve.ipynb) | [✅](Reviews/07_Structuring_End_to_End_Applications_Review.md) |
 | 08 | [Function Calling](08_Function_Calling_Exercise.md) | Function calling и интеграция с API | Средний | ~95 мин | [✅](Solves/08_Function_Calling_Solve.ipynb) | [✅](Reviews/08_Function_Calling_Review.md) |
-| 09 | [Working with Embeddings](09_Working_with_Embeddings_Exercise.md) | Embeddings и семантический поиск | Средний | ~100 мин | — | — |
+| 09 | [Working with Embeddings](09_Working_with_Embeddings_Exercise.md) | Embeddings и семантический поиск | Средний | ~100 мин | [✅](Solves/09_Working_with_Embeddings_Solve.ipynb) | [✅](Reviews/09_Working_with_Embeddings_Review.md) |
 
 ## Описание заданий
 

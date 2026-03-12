@@ -260,7 +260,7 @@ echo "BASE_MODEL=your_model" >> .env
 | 06 | Prompt Engineering for Chatbots | Разработка чатботов | Средний | ~110 мин | ✅ | ✅ |
 | 07 | Structuring End-to-End Applications | Production API паттерны | Средний | ~100 мин | ✅ | ✅ |
 | 08 | Function Calling | Function calling и интеграция с API | Средний | ~95 мин | ✅ | ✅ |
-| 09 | Working with Embeddings | Embeddings и семантический поиск | Средний | ~100 мин | — | — |
+| 09 | Working with Embeddings | Embeddings и семантический поиск | Средний | ~100 мин | ✅ | ✅ |
 
 ## 🚀 Roadmap
 
@@ -306,5 +306,5 @@ echo "BASE_MODEL=your_model" >> .env
 
 **Последнее обновление:** 2026-03-12
 **Количество заметок:** 19 основных (7 OpenAI API, 4 Prompt Engineering, 2 Hugging Face, 2 LLMOps, 1 Local LLM, 2 Python for AI)
-**Количество заданий:** 9 (задания 01-08 с решениями и ревью, задание 09 без решения)
+**Количество заданий:** 9 (задания 01-09 с решениями и ревью)
 **Статус:** Активная разработка
