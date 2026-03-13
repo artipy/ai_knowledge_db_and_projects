@@ -213,6 +213,7 @@ numpy
 ## Связанные темы
 
 - [[OpenAI_API/Working_with_Embeddings]] — основы эмбеддингов, API, косинусное расстояние, t-SNE
-- [[Exercises/09_Working_with_Embeddings_Exercise]] — практическое задание по теме
+- [[Exercises/10_Embeddings_Applications_Exercise]] — практическое задание по этой заметке
+- [[Exercises/09_Working_with_Embeddings_Exercise]] — базовое задание по embeddings
 - [[OpenAI_API/Introduction_to_OpenAI_API]] — основы работы с OpenAI API
 - [[LLMOps/Development_Phase]] — RAG-архитектура использует embeddings для семантического поиска

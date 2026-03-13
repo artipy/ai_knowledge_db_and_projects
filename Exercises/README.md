@@ -14,6 +14,7 @@
 - `07_Structuring_End_to_End_Applications_Exercise.md` - production-ready паттерны: структурированный JSON, обработка ошибок, батчинг, retry-логика, подсчёт токенов
 - `08_Function_Calling_Exercise.md` - function calling: определение функций, извлечение данных, параллельный вызов, tool_choice, интеграция с внешним API
 - `09_Working_with_Embeddings_Exercise.md` - embeddings: получение векторных представлений, пакетная обработка, косинусное сходство, семантический поиск, классификация, визуализация t-SNE
+- `10_Embeddings_Applications_Exercise.md` - применение embeddings: обогащённые представления, семантический поиск, системы рекомендаций (одиночная статья и история просмотров с усреднением), zero-shot классификация
 
 ### Директории для решений и проверок
 
@@ -59,6 +60,7 @@
 | 07 | [Structuring End-to-End Applications](07_Structuring_End_to_End_Applications_Exercise.md) | Production API паттерны | Средний | ~100 мин | [✅](Solves/07_Structuring_End_to_End_Applications_Solve.ipynb) | [✅](Reviews/07_Structuring_End_to_End_Applications_Review.md) |
 | 08 | [Function Calling](08_Function_Calling_Exercise.md) | Function calling и интеграция с API | Средний | ~95 мин | [✅](Solves/08_Function_Calling_Solve.ipynb) | [✅](Reviews/08_Function_Calling_Review.md) |
 | 09 | [Working with Embeddings](09_Working_with_Embeddings_Exercise.md) | Embeddings и семантический поиск | Средний | ~100 мин | [✅](Solves/09_Working_with_Embeddings_Solve.ipynb) | [✅](Reviews/09_Working_with_Embeddings_Review.md) |
+| 10 | [Embeddings Applications](10_Embeddings_Applications_Exercise.md) | Применение Embeddings: поиск, рекомендации, классификация | Средний | ~100 мин | — | — |
 
 ## Описание заданий
 
@@ -243,6 +245,25 @@
 - [[OpenAI_API/Working_with_OpenAI_API_in_Python|Работа с OpenAI API в Python]]
 - [[LLMOps/Development_Phase|Фаза разработки — RAG и векторные базы данных]]
 
+---
+
+### 10. Embeddings Applications
+
+**Что вы освоите:**
+- Построение обогащённых эмбеддингов из нескольких признаков (заголовок + тема + ключевые слова)
+- Реализацию функции `find_n_closest` для семантического поиска
+- Систему рекомендаций на основе текущей статьи
+- Систему рекомендаций на основе истории просмотров (усреднение векторов через `np.mean`, фильтрация просмотренного)
+- Zero-shot классификацию с короткими метками и развёрнутыми описаниями классов
+- Сравнительный анализ точности классификации в зависимости от качества описаний
+
+**Предварительные требования:** Выполненное задание №09, установленные библиотеки `openai`, `python-dotenv`, `scipy`, `numpy`
+
+**Связанные заметки:**
+- [[OpenAI_API/Embeddings_Applications|Применение Embeddings: поиск, рекомендации и классификация]]
+- [[OpenAI_API/Working_with_Embeddings|Работа с Embeddings]]
+- [[LLMOps/Development_Phase|Фаза разработки — RAG и векторные базы данных]]
+
 ## Рекомендуемый порядок выполнения
 
 ```mermaid
@@ -255,7 +276,8 @@ graph LR
     F --> G[Задание 07:<br/>End-to-End Applications]
     G --> H[Задание 08:<br/>Function Calling]
     H --> I[Задание 09:<br/>Embeddings]
-    I --> J[Будущие задания]
+    I --> J[Задание 10:<br/>Embeddings Applications]
+    J --> K[Будущие задания]
 ```
 
 **Важно:** Задания построены с прогрессивным увеличением сложности. Рекомендуется выполнять их последовательно для лучшего усвоения материала.

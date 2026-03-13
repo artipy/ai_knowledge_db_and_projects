@@ -262,6 +262,7 @@ echo "BASE_MODEL=your_model" >> .env
 | 07 | Structuring End-to-End Applications | Production API паттерны | Средний | ~100 мин | ✅ | ✅ |
 | 08 | Function Calling | Function calling и интеграция с API | Средний | ~95 мин | ✅ | ✅ |
 | 09 | Working with Embeddings | Embeddings и семантический поиск | Средний | ~100 мин | ✅ | ✅ |
+| 10 | Embeddings Applications | Поиск, рекомендации, zero-shot классификация | Средний | ~100 мин | — | — |
 
 ## 🚀 Roadmap
 
@@ -307,5 +308,5 @@ echo "BASE_MODEL=your_model" >> .env
 
 **Последнее обновление:** 2026-03-13
 **Количество заметок:** 20 основных (8 OpenAI API, 4 Prompt Engineering, 2 Hugging Face, 2 LLMOps, 1 Local LLM, 2 Python for AI)
-**Количество заданий:** 9 (задания 01-09 с решениями и ревью)
+**Количество заданий:** 10 (задания 01-09 с решениями и ревью, задание 10 в работе)
 **Статус:** Активная разработка
