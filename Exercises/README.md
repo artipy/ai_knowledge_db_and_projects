@@ -239,6 +239,7 @@
 
 **Связанные заметки:**
 - [[OpenAI_API/Working_with_Embeddings|Работа с Embeddings]]
+- [[OpenAI_API/Embeddings_Applications|Применение Embeddings: поиск, рекомендации и классификация]]
 - [[OpenAI_API/Working_with_OpenAI_API_in_Python|Работа с OpenAI API в Python]]
 - [[LLMOps/Development_Phase|Фаза разработки — RAG и векторные базы данных]]
 
