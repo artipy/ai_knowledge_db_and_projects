@@ -60,7 +60,7 @@
 | 07 | [Structuring End-to-End Applications](07_Structuring_End_to_End_Applications_Exercise.md) | Production API паттерны | Средний | ~100 мин | [✅](Solves/07_Structuring_End_to_End_Applications_Solve.ipynb) | [✅](Reviews/07_Structuring_End_to_End_Applications_Review.md) |
 | 08 | [Function Calling](08_Function_Calling_Exercise.md) | Function calling и интеграция с API | Средний | ~95 мин | [✅](Solves/08_Function_Calling_Solve.ipynb) | [✅](Reviews/08_Function_Calling_Review.md) |
 | 09 | [Working with Embeddings](09_Working_with_Embeddings_Exercise.md) | Embeddings и семантический поиск | Средний | ~100 мин | [✅](Solves/09_Working_with_Embeddings_Solve.ipynb) | [✅](Reviews/09_Working_with_Embeddings_Review.md) |
-| 10 | [Embeddings Applications](10_Embeddings_Applications_Exercise.md) | Применение Embeddings: поиск, рекомендации, классификация | Средний | ~100 мин | — | — |
+| 10 | [Embeddings Applications](10_Embeddings_Applications_Exercise.md) | Применение Embeddings: поиск, рекомендации, классификация | Средний | ~100 мин | [✅](Solves/10_Embeddings_Applications_Solve.ipynb) | [✅](Reviews/10_Embeddings_Applications_Review.md) |
 
 ## Описание заданий
 

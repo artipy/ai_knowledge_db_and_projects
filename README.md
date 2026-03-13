@@ -262,7 +262,7 @@ echo "BASE_MODEL=your_model" >> .env
 | 07 | Structuring End-to-End Applications | Production API паттерны | Средний | ~100 мин | ✅ | ✅ |
 | 08 | Function Calling | Function calling и интеграция с API | Средний | ~95 мин | ✅ | ✅ |
 | 09 | Working with Embeddings | Embeddings и семантический поиск | Средний | ~100 мин | ✅ | ✅ |
-| 10 | Embeddings Applications | Поиск, рекомендации, zero-shot классификация | Средний | ~100 мин | — | — |
+| 10 | Embeddings Applications | Поиск, рекомендации, zero-shot классификация | Средний | ~100 мин | ✅ | ✅ (v3) |
 
 ## 🚀 Roadmap
 
