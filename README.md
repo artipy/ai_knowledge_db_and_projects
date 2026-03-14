@@ -65,11 +65,11 @@ knowledge_lib/
 │   ├── Solves/                    # Решения заданий (.ipynb)
 │   │   ├── 01_OpenAI_API_Text_Processing_Solve.ipynb
 │   │   ├── 02_Chat_Roles_and_Conversations_Solve.ipynb
-│   │   └── ... (07 solutions total)
+│   │   └── ... (10 solutions total)
 │   └── Reviews/                   # Проверки решений (*_Review.md)
 │       ├── 01_OpenAI_API_Text_Processing_Review.md
 │       ├── 02_Chat_Roles_and_Conversations_Review.md
-│       └── ... (07 reviews total)
+│       └── ... (10 reviews total)
 │
 ├── raw_notes/                     # Необработанные материалы
 │   └── *.ipynb                    # Jupyter notebooks для обработки
@@ -306,7 +306,7 @@ echo "BASE_MODEL=your_model" >> .env
 
 ---
 
-**Последнее обновление:** 2026-03-13
+**Последнее обновление:** 2026-03-14
 **Количество заметок:** 20 основных (8 OpenAI API, 4 Prompt Engineering, 2 Hugging Face, 2 LLMOps, 1 Local LLM, 2 Python for AI)
-**Количество заданий:** 10 (задания 01-09 с решениями и ревью, задание 10 в работе)
+**Количество заданий:** 10 (все задания 01-10 с решениями и ревью)
 **Статус:** Активная разработка
