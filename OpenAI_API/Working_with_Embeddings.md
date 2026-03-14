@@ -156,3 +156,4 @@ matplotlib
 - [[OpenAI_API/Working_with_OpenAI_API_in_Python]] — Python-интеграция и паттерны
 - [[LLMOps/Development_Phase]] — RAG-архитектура использует embeddings для поиска в базе знаний
 - [[Hugging_Face/Building_Pipelines_with_Hugging_Face]] — альтернативные модели через `sentence-transformers`
+- [[OpenAI_API/Vector_Databases_with_ChromaDB]] — масштабируемое хранение эмбеддингов в ChromaDB

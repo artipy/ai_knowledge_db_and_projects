@@ -217,3 +217,4 @@ numpy
 - [[Exercises/09_Working_with_Embeddings_Exercise]] — базовое задание по embeddings
 - [[OpenAI_API/Introduction_to_OpenAI_API]] — основы работы с OpenAI API
 - [[LLMOps/Development_Phase]] — RAG-архитектура использует embeddings для семантического поиска
+- [[OpenAI_API/Vector_Databases_with_ChromaDB]] — хранение и поиск эмбеддингов в векторной БД (production)

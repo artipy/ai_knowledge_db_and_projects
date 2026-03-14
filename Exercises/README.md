@@ -15,6 +15,7 @@
 - `08_Function_Calling_Exercise.md` - function calling: определение функций, извлечение данных, параллельный вызов, tool_choice, интеграция с внешним API
 - `09_Working_with_Embeddings_Exercise.md` - embeddings: получение векторных представлений, пакетная обработка, косинусное сходство, семантический поиск, классификация, визуализация t-SNE
 - `10_Embeddings_Applications_Exercise.md` - применение embeddings: обогащённые представления, семантический поиск, системы рекомендаций (одиночная статья и история просмотров с усреднением), zero-shot классификация
+- `11_Vector_Databases_with_ChromaDB_Exercise.md` - векторные базы данных: ChromaDB PersistentClient, коллекции с функцией эмбеддингов, CRUD-операции, семантический поиск через query, фильтрация по метаданным, оценка стоимости через tiktoken
 
 ### Директории для решений и проверок
 
@@ -61,6 +62,7 @@
 | 08 | [Function Calling](08_Function_Calling_Exercise.md) | Function calling и интеграция с API | Средний | ~95 мин | [✅](Solves/08_Function_Calling_Solve.ipynb) | [✅](Reviews/08_Function_Calling_Review.md) |
 | 09 | [Working with Embeddings](09_Working_with_Embeddings_Exercise.md) | Embeddings и семантический поиск | Средний | ~100 мин | [✅](Solves/09_Working_with_Embeddings_Solve.ipynb) | [✅](Reviews/09_Working_with_Embeddings_Review.md) |
 | 10 | [Embeddings Applications](10_Embeddings_Applications_Exercise.md) | Применение Embeddings: поиск, рекомендации, классификация | Средний | ~100 мин | [✅](Solves/10_Embeddings_Applications_Solve.ipynb) | [✅](Reviews/10_Embeddings_Applications_Review.md) |
+| 11 | [Vector Databases with ChromaDB](11_Vector_Databases_with_ChromaDB_Exercise.md) | ChromaDB, CRUD, семантический поиск, фильтрация по метаданным | Средний | ~100 мин | ⬜ | ⬜ |
 
 ## Описание заданий
 
@@ -264,6 +266,27 @@
 - [[OpenAI_API/Working_with_Embeddings|Работа с Embeddings]]
 - [[LLMOps/Development_Phase|Фаза разработки — RAG и векторные базы данных]]
 
+---
+
+### 11. Vector Databases with ChromaDB
+
+**Что вы освоите:**
+- Создание `PersistentClient` и коллекций с функцией эмбеддингов OpenAI
+- CRUD-операции: `add`, `get`, `update`, `upsert`, `delete`, `reset`
+- Семантический поиск через `collection.query()` без ручного вычисления эмбеддингов
+- Работу со структурой ответа (список списков) при одном и нескольких запросах
+- Добавление и использование метаданных для фильтрации результатов
+- Фильтры `where` с операторами `$eq`, `$ne`, `$gt`, `$lt`, `$and`, `$or`
+- Построение рекомендательной системы с тематическим фильтром
+- Оценку стоимости операций эмбеддинга с помощью `tiktoken`
+
+**Предварительные требования:** Выполненные задания №09 и №10, установленные библиотеки `chromadb`, `openai`, `python-dotenv`, `tiktoken`
+
+**Связанные заметки:**
+- [[OpenAI_API/Vector_Databases_with_ChromaDB|Векторные базы данных с ChromaDB]]
+- [[OpenAI_API/Working_with_Embeddings|Работа с Embeddings]]
+- [[OpenAI_API/Embeddings_Applications|Применение Embeddings: поиск, рекомендации и классификация]]
+
 ## Рекомендуемый порядок выполнения
 
 ```mermaid
@@ -277,7 +300,8 @@ graph LR
     G --> H[Задание 08:<br/>Function Calling]
     H --> I[Задание 09:<br/>Embeddings]
     I --> J[Задание 10:<br/>Embeddings Applications]
-    J --> K[Будущие задания]
+    J --> K[Задание 11:<br/>Vector Databases]
+    K --> L[Будущие задания]
 ```
 
 **Важно:** Задания построены с прогрессивным увеличением сложности. Рекомендуется выполнять их последовательно для лучшего усвоения материала.
