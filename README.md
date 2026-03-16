@@ -270,8 +270,8 @@ echo "BASE_MODEL=your_model" >> .env
 | 08 | Function Calling | Function calling и интеграция с API | Средний | ~95 мин | ✅ | ✅ |
 | 09 | Working with Embeddings | Embeddings и семантический поиск | Средний | ~100 мин | ✅ | ✅ |
 | 10 | Embeddings Applications | Поиск, рекомендации, zero-shot классификация | Средний | ~100 мин | ✅ | ✅ (v3) |
-| 11 | Vector Databases with ChromaDB | ChromaDB, CRUD, семантический поиск, фильтрация | Средний | ~100 мин | ⬜ | ⬜ |
-| 12 | Vector Databases with Pinecone | Pinecone serverless, upsert, query, фильтрация, namespaces | Средний | ~105 мин | ⬜ | ⬜ |
+| 11 | Vector Databases with ChromaDB | ChromaDB, CRUD, семантический поиск, фильтрация | Средний | ~100 мин | ✅ | ✅ (v2) |
+| 12 | Vector Databases with Pinecone | Pinecone serverless, upsert, query, фильтрация, namespaces | Средний | ~105 мин | ✅ | ✅ |
 
 ## 🚀 Roadmap
 
@@ -317,7 +317,7 @@ echo "BASE_MODEL=your_model" >> .env
 
 ---
 
-**Последнее обновление:** 2026-03-16
+**Последнее обновление:** 2026-03-17
 **Количество заметок:** 22 основные (10 OpenAI API, 4 Prompt Engineering, 2 Hugging Face, 2 LLMOps, 1 Local LLM, 2 Python for AI)
-**Количество заданий:** 12 (задания 01-10 с решениями и ревью; задания 11-12 — без решений)
+**Количество заданий:** 12 (все задания 01-12 с решениями и ревью)
 **Статус:** Активная разработка

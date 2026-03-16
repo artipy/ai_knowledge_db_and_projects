@@ -63,8 +63,8 @@
 | 08 | [Function Calling](08_Function_Calling_Exercise.md) | Function calling и интеграция с API | Средний | ~95 мин | [✅](Solves/08_Function_Calling_Solve.ipynb) | [✅](Reviews/08_Function_Calling_Review.md) |
 | 09 | [Working with Embeddings](09_Working_with_Embeddings_Exercise.md) | Embeddings и семантический поиск | Средний | ~100 мин | [✅](Solves/09_Working_with_Embeddings_Solve.ipynb) | [✅](Reviews/09_Working_with_Embeddings_Review.md) |
 | 10 | [Embeddings Applications](10_Embeddings_Applications_Exercise.md) | Применение Embeddings: поиск, рекомендации, классификация | Средний | ~100 мин | [✅](Solves/10_Embeddings_Applications_Solve.ipynb) | [✅](Reviews/10_Embeddings_Applications_Review.md) |
-| 11 | [Vector Databases with ChromaDB](11_Vector_Databases_with_ChromaDB_Exercise.md) | ChromaDB, CRUD, семантический поиск, фильтрация по метаданным | Средний | ~100 мин | ⬜ | ⬜ |
-| 12 | [Vector Databases with Pinecone](12_Vector_Databases_with_Pinecone_Exercise.md) | Pinecone serverless, upsert, query, фильтрация, namespaces | Средний | ~105 мин | ⬜ | ⬜ |
+| 11 | [Vector Databases with ChromaDB](11_Vector_Databases_with_ChromaDB_Exercise.md) | ChromaDB, CRUD, семантический поиск, фильтрация по метаданным | Средний | ~100 мин | [✅](Solves/11_Vector_Databases_with_ChromaDB_Solve.ipynb) | [✅ (v2)](Reviews/11_Vector_Databases_with_ChromaDB_Review.md) |
+| 12 | [Vector Databases with Pinecone](12_Vector_Databases_with_Pinecone_Exercise.md) | Pinecone serverless, upsert, query, фильтрация, namespaces | Средний | ~105 мин | [✅](Solves/12_Vector_Databases_with_Pinecone_Solve.ipynb) | [✅](Reviews/12_Vector_Databases_with_Pinecone_Review.md) |
 
 ## Описание заданий
 
