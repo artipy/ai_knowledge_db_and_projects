@@ -2,7 +2,7 @@
 
 Векторные базы данных решают ключевые проблемы хранения эмбеддингов в памяти: каждый вектор занимает ~13 КБ (1536 float-значений), пересчёт при каждом запросе нерентабелен, а линейный поиск по косинусному расстоянию не масштабируется. Для production-систем необходима специализированная векторная БД.
 
-Связанные темы: [[OpenAI_API/Working_with_Embeddings]] · [[OpenAI_API/Embeddings_Applications]] · [[LLMOps/LLMOps_Overview]]
+Связанные темы: [[OpenAI_API/Working_with_Embeddings]] · [[OpenAI_API/Embeddings_Applications]] · [[LLMOps/Introduction_to_LLMOps_and_Ideation_Phase]] · [[OpenAI_API/Vector_Databases_with_Pinecone]]
 
 ---
 
@@ -253,5 +253,6 @@ print(f'Cost: ${cost:.4f}')
 
 - [[OpenAI_API/Working_with_Embeddings]] — создание и работа с эмбеддингами
 - [[OpenAI_API/Embeddings_Applications]] — семантический поиск, рекомендации, классификация
-- [[LLMOps/LLMOps_Overview]] — RAG и векторные БД в контексте LLMOps
+- [[LLMOps/Introduction_to_LLMOps_and_Ideation_Phase]] — RAG и векторные БД в контексте LLMOps
+- [[OpenAI_API/Vector_Databases_with_Pinecone]] — managed-альтернатива: Pinecone
 - [[Exercises/11_Vector_Databases_with_ChromaDB_Exercise]] — практическое задание по этой заметке

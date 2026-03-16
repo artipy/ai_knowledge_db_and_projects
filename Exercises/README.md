@@ -16,6 +16,7 @@
 - `09_Working_with_Embeddings_Exercise.md` - embeddings: получение векторных представлений, пакетная обработка, косинусное сходство, семантический поиск, классификация, визуализация t-SNE
 - `10_Embeddings_Applications_Exercise.md` - применение embeddings: обогащённые представления, семантический поиск, системы рекомендаций (одиночная статья и история просмотров с усреднением), zero-shot классификация
 - `11_Vector_Databases_with_ChromaDB_Exercise.md` - векторные базы данных: ChromaDB PersistentClient, коллекции с функцией эмбеддингов, CRUD-операции, семантический поиск через query, фильтрация по метаданным, оценка стоимости через tiktoken
+- `12_Vector_Databases_with_Pinecone_Exercise.md` - облачная векторная БД: Pinecone serverless-индекс, создание эмбеддингов через OpenAI, upsert с метаданными, query с top_k и фильтрацией `$eq/$ne`, рекомендательная система, пространства имён
 
 ### Директории для решений и проверок
 
@@ -63,6 +64,7 @@
 | 09 | [Working with Embeddings](09_Working_with_Embeddings_Exercise.md) | Embeddings и семантический поиск | Средний | ~100 мин | [✅](Solves/09_Working_with_Embeddings_Solve.ipynb) | [✅](Reviews/09_Working_with_Embeddings_Review.md) |
 | 10 | [Embeddings Applications](10_Embeddings_Applications_Exercise.md) | Применение Embeddings: поиск, рекомендации, классификация | Средний | ~100 мин | [✅](Solves/10_Embeddings_Applications_Solve.ipynb) | [✅](Reviews/10_Embeddings_Applications_Review.md) |
 | 11 | [Vector Databases with ChromaDB](11_Vector_Databases_with_ChromaDB_Exercise.md) | ChromaDB, CRUD, семантический поиск, фильтрация по метаданным | Средний | ~100 мин | ⬜ | ⬜ |
+| 12 | [Vector Databases with Pinecone](12_Vector_Databases_with_Pinecone_Exercise.md) | Pinecone serverless, upsert, query, фильтрация, namespaces | Средний | ~105 мин | ⬜ | ⬜ |
 
 ## Описание заданий
 
@@ -287,6 +289,28 @@
 - [[OpenAI_API/Working_with_Embeddings|Работа с Embeddings]]
 - [[OpenAI_API/Embeddings_Applications|Применение Embeddings: поиск, рекомендации и классификация]]
 
+---
+
+### 12. Vector Databases with Pinecone
+
+**Что вы освоите:**
+- Создание serverless-индексов в Pinecone через `ServerlessSpec`
+- Управление жизненным циклом индекса: `create_index`, `list_indexes`, `delete_index`
+- Инспекцию индекса через `describe_index_stats` (dimension, vector_count, namespaces)
+- Явное создание эмбеддингов через OpenAI API и их загрузку в Pinecone
+- Семантику `upsert`: атомарное добавление и обновление записей, идемпотентность
+- Семантический поиск через `index.query(vector, top_k, filter, include_metadata)`
+- Фильтрацию по метаданным с операторами `$eq`, `$ne`
+- Построение рекомендательной системы с фильтром темы и постобработкой результатов
+- Работу с пространствами имён (namespaces) для изоляции данных
+
+**Предварительные требования:** Выполненные задания №09-11, учётная запись Pinecone (бесплатный план), установленные библиотеки `pinecone`, `openai`, `python-dotenv`, `tiktoken`
+
+**Связанные заметки:**
+- [[OpenAI_API/Vector_Databases_with_Pinecone|Векторные базы данных с Pinecone]]
+- [[OpenAI_API/Vector_Databases_with_ChromaDB|Векторные базы данных с ChromaDB]]
+- [[OpenAI_API/Working_with_Embeddings|Работа с Embeddings]]
+
 ## Рекомендуемый порядок выполнения
 
 ```mermaid
@@ -300,8 +324,9 @@ graph LR
     G --> H[Задание 08:<br/>Function Calling]
     H --> I[Задание 09:<br/>Embeddings]
     I --> J[Задание 10:<br/>Embeddings Applications]
-    J --> K[Задание 11:<br/>Vector Databases]
-    K --> L[Будущие задания]
+    J --> K[Задание 11:<br/>ChromaDB]
+    K --> L[Задание 12:<br/>Pinecone]
+    L --> M[Будущие задания]
 ```
 
 **Важно:** Задания построены с прогрессивным увеличением сложности. Рекомендуется выполнять их последовательно для лучшего усвоения материала.
