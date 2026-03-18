@@ -195,4 +195,5 @@ index.upsert(vectors=vectors)
 - [[OpenAI_API/Working_with_Embeddings]] — создание и работа с эмбеддингами
 - [[OpenAI_API/Embeddings_Applications]] — семантический поиск, рекомендации, классификация
 - [[LLMOps/Introduction_to_LLMOps_and_Ideation_Phase]] — RAG и векторные БД в контексте LLMOps
+- [[OpenAI_API/Pinecone_Vector_Manipulation]] — fetch, query, фильтрация метаданных, обновление и удаление векторов
 - [[Exercises/12_Vector_Databases_with_Pinecone_Exercise]] — практическое задание по этой заметке

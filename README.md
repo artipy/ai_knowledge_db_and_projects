@@ -30,7 +30,8 @@ knowledge_lib/
 │   ├── Working_with_Embeddings.md
 │   ├── Embeddings_Applications.md
 │   ├── Vector_Databases_with_ChromaDB.md
-│   └── Vector_Databases_with_Pinecone.md
+│   ├── Vector_Databases_with_Pinecone.md
+│   └── Pinecone_Vector_Manipulation.md
 │
 ├── Prompt_Engineering/            # Техники промпт-инжиниринга
 │   ├── Prompt_Engineering_Best_Practices.md
@@ -97,6 +98,7 @@ knowledge_lib/
 - Embeddings: векторные представления текста, пакетная обработка, косинусное сходство, семантический поиск, классификация без обучения, визуализация t-SNE; практические применения: обогащённые эмбеддинги, системы рекомендаций (одиночные и по истории просмотров с усреднением векторов), zero-shot классификация с описаниями классов
 - Векторные базы данных с ChromaDB: PersistentClient, создание коллекций с функцией эмбеддингов, CRUD-операции (add/get/update/upsert/delete), семантический поиск через query, несколько запросов одним вызовом, фильтрация по метаданным с операторами `$eq/$ne/$gt/$lt/$and/$or`, оценка стоимости через tiktoken
 - Векторные базы данных с Pinecone: serverless vs pod-based индексы, Pinecone client, ServerlessSpec, create_index/list_indexes/delete_index, describe_index_stats, пространства имён (namespaces), upsert с метаданными, query с top_k/filter, операторы `$eq/$ne`, рекомендательные системы, роли в организации
+- Операции с векторами в Pinecone: fetch по ID/namespace, Read Units, query с top_k/include_values, метрики расстояния (cosine/euclidean/dotproduct), фильтрация по метаданным с операторами `$eq/$gt/$ne` и комбинированными фильтрами, обновление значений вектора и метаданных через `set_metadata`, удаление по ID/фильтру/`delete_all` namespace
 - Лучшие практики для production: модерация контента (safe/unsafe классификация, guardrails), валидация модели (adversarial testing, обнаружение сарказма), безопасность (идентификация пользователей через UUID, защита API-ключей)
 
 ### Prompt Engineering
@@ -272,6 +274,7 @@ echo "BASE_MODEL=your_model" >> .env
 | 10 | Embeddings Applications | Поиск, рекомендации, zero-shot классификация | Средний | ~100 мин | ✅ | ✅ (v3) |
 | 11 | Vector Databases with ChromaDB | ChromaDB, CRUD, семантический поиск, фильтрация | Средний | ~100 мин | ✅ | ✅ (v2) |
 | 12 | Vector Databases with Pinecone | Pinecone serverless, upsert, query, фильтрация, namespaces | Средний | ~105 мин | ✅ | ✅ |
+| 13 | Pinecone Vector Manipulation | fetch, query, метрики расстояния, фильтрация, update, delete | Средний | ~100 мин | ⬜ | ⬜ |
 
 ## 🚀 Roadmap
 
@@ -317,7 +320,7 @@ echo "BASE_MODEL=your_model" >> .env
 
 ---
 
-**Последнее обновление:** 2026-03-17
-**Количество заметок:** 22 основные (10 OpenAI API, 4 Prompt Engineering, 2 Hugging Face, 2 LLMOps, 1 Local LLM, 2 Python for AI)
-**Количество заданий:** 12 (все задания 01-12 с решениями и ревью)
+**Последнее обновление:** 2026-03-18
+**Количество заметок:** 23 основные (11 OpenAI API, 4 Prompt Engineering, 2 Hugging Face, 2 LLMOps, 1 Local LLM, 2 Python for AI)
+**Количество заданий:** 13 (задания 01-12 с решениями и ревью; задание 13 без решения)
 **Статус:** Активная разработка
